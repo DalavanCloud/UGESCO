@@ -1,0 +1,12 @@
+PrimaryId,FirstName,LastName,City,CarName,DogName
+100,John,Smith,NewYork,Toyota,Spike
+100,John,Smith,NewYork,BMW,Spike
+100,John,Smith,NewYork,Toyota,Rusty
+100,John,Smith,NewYork,BMW,Rusty
+101,Ben,Swan,Sydney,Volkswagen,Buddy
+101,Ben,Swan,Sydney,Ford,Buddy
+101,Ben,Swan,Sydney,Audi,Buddy
+101,Ben,Swan,Sydney,Volkswagen,Max
+101,Ben,Swan,Sydney,Ford,Max
+101,Ben,Swan,Sydney,Audi,Max
+102,Julia,Brown,London,Mini,Lucy

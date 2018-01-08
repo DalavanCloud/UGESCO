@@ -692,7 +692,7 @@ def get_dbpediaspotlight(value, dbpedia_types):
         'policy': "whitelist",
         'types': "DBpedia:{}".format(dbpedia_types),
         'coreferenceResolution': False}
-     
+     #ce service rest ne fonctionne plus. Utiliser plutôt un service en localhost comme dans Ugesco
     annotations = spotlight.annotate('http://spotlight.sztaki.hu:2225/rest/annotate',
                                       value,
                                       confidence = 0.2, 

@@ -17,17 +17,20 @@ def get_dbpediaspotlight(value, db_type):
         'policy': "whitelist",
         'types': "DBpedia:{}".format(db_type),
         'coreferenceResolution': False}
+    try:
 
-    annotations = spotlight.annotate('http://localhost:2222/rest/annotate',
-                                     value,
-                                     confidence=0.2,
-                                     support=20,
-                                     filters=types_filter)
-    liste = []
-    for el in annotations:
-        liste.append(el['URI'] + "||" + el['types'])
+        annotations = spotlight.annotate('http://localhost:2222/rest/annotate',
+                                         value,
+                                         confidence=0.2,
+                                         support=20,
+                                         filters=types_filter)
+        liste = []
+        for el in annotations:
+            liste.append(el['URI'] + "||" + el['types'])
+    except spotlight.SpotlightException:
+        pass
 
-    return ",".join(liste)
+    return ":::".join(liste)
 
 
 print(get_dbpediaspotlight(

@@ -16,9 +16,12 @@ def polyglot_loc(x):
     liste = []
     liste2 = []
     # Print the type of each entity
-    for ents in text.entities:
-        if ents.tag == "I-LOC":
-            liste.append(' '.join(ents))
+    try:
+        for ents in text.entities:
+            if ents.tag == "I-LOC":
+                liste.append(' '.join(ents))
+    except ValueError:
+        return "language not identified"
     try:
         for i, el in enumerate(liste):
             el = el.replace(' - ', '-')
@@ -29,5 +32,5 @@ def polyglot_loc(x):
         liste2.append(el)
     return list(set(liste2))
     
-print(polyglot_loc("""Nous avions été à Montigny-sur-Sambre avec Charles Michel pour assister au Te Deum de la Basilique de Liège-sur-Aulnois."""))
+print(polyglot_loc("""nous sommes rentrés hier de Bruxelles après être passés par Morlanwelz."""))
 

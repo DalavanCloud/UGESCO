@@ -1,598 +1,345 @@
-original_class,class,class_id,subclass of,precision,getty_link,AAT_subject_id,AAT_preffered_terms
-archive,archive,Q166118,GLAM,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22archive%22&logop=and&notes=,300124822,archives (buildings)
-,,,cultural institution,,,,
-,,,historical source,,,,
-ice shelf,ice shelf,Q46966,glacier,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22ice+shelf%22&logop=and&notes=,,
-cemetery,cemetery,Q39614,terrain,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22cemetery%22&logop=and&notes=,300266755,cemeteries
-,,,organization,,,,
-,,,place of worship,,,,
-,,,venue,,,,
-ice floe,sea ice,Q213926,natural landscape,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22ice+floe%22&logop=and&notes=,300391207,ice floes
-kindergarden classroom,classroom,Q621114,room,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22kindergarden+classroom%22&logop=and&notes=,300004507,classrooms
-locker room,changing room,Q1070054,room,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22locker+room%22&logop=and&notes=,300004120,locker rooms
-museum,museum building,Q24699794,public building,indoor,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22museum%22&logop=and&notes=,300005768,museums (buildings)
-field,field,Q188869,geographic region,cultivated,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22field%22&logop=and&notes=,300343519,fields (land)
-slum,slum,Q201759,neighborhood,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22slum%22&logop=and&notes=,300000753,slums
-drugstore,drugstore,Q1260046,retail,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22drugstore%22&logop=and&notes=,300005307,drugstores
-,,,specialty store,,,,
-dining hall,dining room,Q661199,room,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22dining+hall%22&logop=and&notes=,300004346,dining halls
-classroom,classroom,Q621114,room,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22classroom%22&logop=and&notes=,300004507,classrooms
-mosque,mosque,Q32815,place of worship,outdoor,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22mosque%22&logop=and&notes=,300007544,mosques (buildings)
-,,,building,,,,
-nursing home,nursing home,Q837142,hospital,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22nursing+home%22&logop=and&notes=,300006709,nursing homes
-auditorium,auditorium,Q230752,venue,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22auditorium%22&logop=and&notes=,300004394,auditoriums
-,,,room,,,,
-lecture room,reading room,Q1753764,Bibliotheksraum,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22lecture+room%22&logop=and&notes=,300004434,reading rooms
-conference center,convention center,Q1378975,event venue,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22conference+center%22&logop=and&notes=,,
-,,,building,,,,
-legislative chamber,debate chamber,Q25036082,room,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22legislative+chamber%22&logop=and&notes=,,
-banquet hall,conference room,Q3469909,room,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22banquet+hall%22&logop=and&notes=,300004333,banquet halls
-dressing room,wardrobe,Q10883050,cabinet,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22dressing+room%22&logop=and&notes=,300004369,dressing rooms
-movie theater,movie theater,Q41253,public building,indoor,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22movie+theater%22&logop=and&notes=,300007135,motion picture theaters
-,,,venue,,,,
-conference room,conference hall,Q1207465,room,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22conference+room%22&logop=and&notes=,300004398,conference rooms
-ballroom,ballroom,Q805353,sala,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22ballroom%22&logop=and&notes=,300004413,ballrooms
-pub,pub,Q212198,drinking establishment,indoor,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22pub%22&logop=and&notes=,300005166,pubs
-,,,commercial building,,,,
-music studio,studio,Q746628,room,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22music+studio%22&logop=and&notes=,,
-,,,workshop,,,,
-discotheque,discothèque,Q1228895,building,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22discotheque%22&logop=and&notes=,300007229,discotheques
-,,,inn,,,,
-bar,bar,Q187456,drinking establishment,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22bar%22&logop=and&notes=,300005158,bars (commercial buildings)
-trench,trench,Q1852785,artificial landform,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22trench%22&logop=and&notes=,300008022,trenches
-street,street,Q79007,road,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22street%22&logop=and&notes=,300008247,streets
-shower,shower,Q7863,plumbing fixture,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22shower%22&logop=and&notes=,,
-booth,shelter,Q7493941,building,indoor,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22booth%22&logop=and&notes=,300004086,booths
-doorway,building,Q41176,architectural structure,outdoor,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22doorway%22&logop=and&notes=,300002767,doorways
-kasbah,Kasbah,Q89468,fortress,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22kasbah%22&logop=and&notes=,300263690,casbahs
-art gallery,art gallery,Q1007870,arts venue,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22art+gallery%22&logop=and&notes=,300005232,art galleries (buildings)
-,,,art collection,,,,
-,,,shop,,,,
-elevator,elevator,Q132911,architectural element,door,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22elevator%22&logop=and&notes=,300051186,elevators
-,,,mode of transport,,,,
-,,,machine,,,,
-,,,lifting device,,,,
-zen garden,Japanese rock garden,Q244226,garden,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22zen+garden%22&logop=and&notes=,,
-server room,Server room,Q1973185,room,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22server+room%22&logop=and&notes=,,
-ski slope,piste,Q1281105,trail,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22ski+slope%22&logop=and&notes=,,
-creek,stream,Q47521,watercourse,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22creek%22&logop=and&notes=,300008706,creeks (bodies of water)
-,,,body of water,,,,
-courthouse,courthouse,Q1137809,government building,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22courthouse%22&logop=and&notes=,300005969,courthouses
-,,,public building,,,,
-coffee shop,café,Q30022,restaurant,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22coffee+shop%22&logop=and&notes=,300005187,coffee shops
-bridge,bridge,Q12280,thoroughfare,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22bridge%22&logop=and&notes=,300007836,bridges (built works)
-,,,architectural structure,,,,
-pier,pier,Q863454,architectural structure,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22pier%22&logop=and&notes=,300120779,piers (marine landings)
-,,,thoroughfare,,,,
-train station,train station,Q55488,operation point,platform,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22train+station%22&logop=and&notes=,300007783,railroad station
-,,,entry point,,,,
-,,,station,,,,
-,,,architectural structure,,,,
-,,,rail infrastructure,,,,
-,,,venue,,,,
-topiary garden,garden,Q1107656,landscape,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22topiary+garden%22&logop=and&notes=,300008090,gardens (open spaces)
-,,,exterior space,,,,
-,,,land use,,,,
-,,,workplace,,,,
-,,,venue,,,,
-library,library building,Q856584,building,outdoor,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22library%22&logop=and&notes=,300006824,libraries (buildings)
-snowfield,snow field,Q1365419,landform,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22snowfield%22&logop=and&notes=,300266569,snowfields
-hospital,hospital,Q16917,medical facility,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22hospital%22&logop=and&notes=,300006676,hospitals (buildings for health facility)
-,,,public building,,,,
-,,,emergency service,,,,
-,,,institution,,,,
-orchard,orchard,Q236371,plantation,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22orchard%22&logop=and&notes=,300008890,orchards
-arch,arch,Q12277,architectural element,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22arch%22&logop=and&notes=,300000994,arches
-tree farm,Tree farm,Q2843044,forest,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22tree+farm%22&logop=and&notes=,300000218,tree farms
-,,,farm,,,,
-pavilion,pavilion,Q276173,building,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22pavilion%22&logop=and&notes=,300002660,pavilions (building divisions)
-mausoleum,mausoleum,Q162875,burial or funerary monument or structure,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22mausoleum%22&logop=and&notes=,300005891,mausoleums
-park,park,Q22698,green space,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22park%22&logop=and&notes=,300008187,parks (recreation areas)
-,,,public space,,,,
-lawn,lawn,Q207766,territorial entity,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22lawn%22&logop=and&notes=,300008889,lawns (landscaped grass)
-bazaar,bazaar,Q219760,venue,outdoor,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22bazaar%22&logop=and&notes=,300000256,bazaars (marketplaces)
-promenade,promenade,Q787113,thoroughfare,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22promenade%22&logop=and&notes=,300008329,promenades (walkways)
-ice skating rink,ice rink,Q1282870,sports venue,outdoor,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22ice+skating+rink%22&logop=and&notes=,300007262,ice skating rinks
-staircase,stairs,Q12511,architectural element,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22staircase%22&logop=and&notes=,300003228,stairs
-,,,horizontal structural element,,,,
-,,,vertical structural element,,,,
-plaza,square,Q174782,architectural structure,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22plaza%22&logop=and&notes=,300387394,plazas (squares)
-,,,public space,,,,
-,,,thoroughfare,,,,
-clean room,Cleanroom,Q794827,room,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22clean+room%22&logop=and&notes=,300004509,clean rooms
-loading dock,loading dock,Q1799919,transport infrastructure,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22loading+dock%22&logop=and&notes=,300004279,loading docks
-office cubicles,cubicle,Q1549531,room,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22office+cubicles%22&logop=and&notes=,300299165,entry cubicles
-,,,Portable partitions,,,,
-kennel,kennel,Q2724542,construction,outdoor,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22kennel%22&logop=and&notes=,300004993,kennels (animal housing)
-schoolhouse,school building,Q1244442,public building,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22schoolhouse%22&logop=and&notes=,300266732,schoolhouses
-bank vault,Bank vault,Q3501496,room,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22bank+vault%22&logop=and&notes=,,
-art school,art school,Q383092,school,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22art+school%22&logop=and&notes=,,
-,,,arts educational institution,,,,
-,,,higher education institution,,,,
-,,,academy,,,,
-barndoor,barn,Q1303167,agricultural building,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22barndoor%22&logop=and&notes=,,barn doors
-,,,appendage,,,,
-jail cell,prison cell,Q686534,facility,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22jail+cell%22&logop=and&notes=,300417303,prison cells
-volleyball court,volleyball court,Q26707613,pitch,outdoor,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22volleyball+court%22&logop=and&notes=,,
-fountain,fountain,Q483453,architectural structure,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22fountain%22&logop=and&notes=,300006179,fountains
-,,,street furniture,,,,
-,,,water pool,,,,
-,,,tourist attraction,,,,
-,,,fountain (water),,,,
-,,,work of art,,,,
-airplane cabin,airplane,Q197,fixed-wing aircraft,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22airplane+cabin%22&logop=and&notes=,,
-,,,powered aircraft,,,,
-baseball field,Baseball field,Q809889,pitch,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22baseball+field%22&logop=and&notes=,300000567,baseball fields
-army base,military base,Q245016,military facility,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22army+base%22&logop=and&notes=,300000461,army bases
-hospital room,hospital,Q180370,hospital,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22hospital+room%22&logop=and&notes=,,
-,,,public building,,,,
-,,,care center,,,,
-television studio,television studio,Q511355,media studio facility,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22television+studio%22&logop=and&notes=,300005394,television studios
-soccer field,football ground,Q39463060,sports field,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22soccer+field%22&logop=and&notes=,300000582,soccer fields
-,,,pitch,,,,
-alley,alley,Q1251403,street,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22alley%22&logop=and&notes=,300008248,alleys (streets)
-desert,desert,Q8514,landscape,sand,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22desert%22&logop=and&notes=,300008916,deserts
-ticket booth,billetterie informatisée,Q2903541,application,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22ticket+booth%22&logop=and&notes=,,
-phone booth,telephone booth,Q1143785,payphone,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22phone+booth%22&logop=and&notes=,300005422,telephone booths
-,,,telecommunications building,,,,
-beach,beach,Q40080,coastal landform,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22beach%22&logop=and&notes=,300008816,beaches
-,,,bank,,,,
-,,,venue,,,,
-oast house,oast house,Q1166574,appendage,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22oast+house%22&logop=and&notes=,300263280,oasthouses
-,,,agricultural building,,,,
-boardwalk,boardwalk,Q11111030,footbridge,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22boardwalk%22&logop=and&notes=,300189544,boardwalks
-badlands,Badlands,Q272921,landform,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22badlands%22&logop=and&notes=,300387013,badlands
-tundra,tundra,Q43262,biom,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22tundra%22&logop=and&notes=,300008921,tundras
-pharmacy,pharmacy,Q13107184,commercial building,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22pharmacy%22&logop=and&notes=,300054520,pharmacy
-,,,trading company,,,,
-,,,shop,,,,
-parking lot,parking lot,Q6501349,facility,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22parking+lot%22&logop=and&notes=,300007826,parking lots
-,,,transport infrastructure,,,,
-museum,museum building,Q24699794,public building,outdoor,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22museum%22&logop=and&notes=,300005768,museums (buildings)
-hangar,hangar,Q192375,building,outdoor,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22hangar%22&logop=and&notes=,300007768,hangars
-,,,parking lot,,,,
-ice cream parlor,ice cream parlor,Q1311064,shop,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22ice+cream+parlor%22&logop=and&notes=,300005194,ice cream parlors
-sauna,sauna,Q57036,bathroom,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22sauna%22&logop=and&notes=,300004235,saunas (spaces)
-nursery,nursery,Q1741939,room,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22nursery%22&logop=and&notes=,300004380,nurseries (rooms)
-bowling alley,bowling alley,Q27106471,sports venue,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22bowling+alley%22&logop=and&notes=,300007285,bowling alleys
-art studio,studio,Q746628,room,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22art+studio%22&logop=and&notes=,,
-,,,workshop,,,,
-boxing ring,stadium,Q483110,arena,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22boxing+ring%22&logop=and&notes=,,
-,,,sports venue,,,,
-veterinarians office,doctor's office,Q718966,medical facility,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22veterinarians+office%22&logop=and&notes=,,
-arena,arena,Q641226,event venue,hockey,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22arena%22&logop=and&notes=,300007268,arenas (sports buildings)
-igloo,igloo,Q101805,shelter,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22igloo%22&logop=and&notes=,300005601,igloos
-,,,house,,,,
-,,,snow or ice construction,,,,
-natural history museum,natural history museum,Q1970365,science museum,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22natural+history+museum%22&logop=and&notes=,300312323,natural history museums (buildings)
-,,,history museum,,,,
-greenhouse,greenhouse,Q165044,agricultural building,outdoor,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22greenhouse%22&logop=and&notes=,300004938,greenhouses
-swimming hole,Swimming hole,Q7658373,,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22swimming+hole%22&logop=and&notes=,,
-engine room,engine room,Q1415781,compartment,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22engine+room%22&logop=and&notes=,300411419,engine rooms
-gazebo,gazebo,Q961082,pavilion,exterior,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22gazebo%22&logop=and&notes=,300006798,gazebos
-playground,playground,Q13607440,public space,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22playground%22&logop=and&notes=,300008203,playgrounds
-water tower,water tower,Q274153,tower,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22water+tower%22&logop=and&notes=,300006204,water towers
-,,,water reservoir,,,,
-gas station,gas station,Q205495,facility,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22gas+station%22&logop=and&notes=,,
-,,,architectural structure,,,,
-fire escape,fire escape,Q1430596,emergency exit,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22fire+escape%22&logop=and&notes=,300003262,fire escapes
-,,,stairs,,,,
-crosswalk,pedestrian crossing,Q8010,Querungsanlage,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22crosswalk%22&logop=and&notes=,300003838,crosswalks
-,,,transport infrastructure,,,,
-mansion,mansion,Q1802963,house,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22mansion%22&logop=and&notes=,300071272,mansions
-delicatessen,delicatessen,Q3231410,shop,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22delicatessen%22&logop=and&notes=,300005188,delicatessens
-,,,restaurant,,,,
-construction site,construction site,Q360418,workplace,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22construction+site%22&logop=and&notes=,300312090,construction sites
-,,,parking lot,,,,
-beauty salon,beauty salon,Q1195245,shop,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22beauty+salon%22&logop=and&notes=,300005253,beauty shops
-stadium,stadium,Q483110,arena,baseball,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22stadium%22&logop=and&notes=,300007271,stadiums
-,,,sports venue,,,,
-industrial area,industrial park,Q329683,terrain,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22industrial+area%22&logop=and&notes=,,industrial districts
-,,,building complex,,,,
-landing deck,flight deck,Q622031,deck,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22landing+deck%22&logop=and&notes=,,
-stage,stage,Q194428,construction,outdoor,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22stage%22&logop=and&notes=,300004751,stages (performance spaces)
-clothing store,clothing store,Q2090555,specialty store,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22clothing+store%22&logop=and&notes=,300005303,clothing stores
-butchers shop,butcher,Q329737,tradesman,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22butchers+shop%22&logop=and&notes=,300262995,butcher shops
-corral,pen,Q858177,venue,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22corral%22&logop=and&notes=,300004983,corrals (animal housing)
-canyon,canyon,Q150784,valley,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22canyon%22&logop=and&notes=,300008763,canyons
-harbor,harbor,Q283202,body of water,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22harbor%22&logop=and&notes=,300008678,harbors
-,,,port,,,,
-ruin,ruins,Q109607,architectural structure,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22ruin%22&logop=and&notes=,300008057,ruins
-,,,Überrest,,,,
-,,,former building or structure,,,,
-wheat field,field,Q188869,geographic region,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22wheat+field%22&logop=and&notes=,,
-junkyard,landfill,Q152810,venue,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22junkyard%22&logop=and&notes=,300000826,junkyards
-,,,slag heap,,,,
-assembly line,factory,Q83405,operation,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22assembly+line%22&logop=and&notes=,,
-,,,operation,,,,
-physics laboratory,physics laboratory,Q1814169,laboratory,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22physics+laboratory%22&logop=and&notes=,,
-village,village,Q532,rural settlement,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22village%22&logop=and&notes=,300008372,villages
-,,,human settlement,,,,
-,,,rural area,,,,
-hotel,hotel,Q27686,commercial building,outdoor,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22hotel%22&logop=and&notes=,300131655,hôtels (town houses)
-,,,lodging,,,,
-,,,business enterprise,,,,
-downtown,central business district,Q738570,neighborhood,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22downtown%22&logop=and&notes=,300387524,downtowns
-office,office,Q182060,room,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22office%22&logop=and&notes=,300004521,offices (work spaces)
-,,,workplace,,,,
-library,library building,Q856584,building,indoor,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22library%22&logop=and&notes=,300006824,libraries (buildings)
-restaurant,restaurant,Q11707,business enterprise,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22restaurant%22&logop=and&notes=,300005182,restaurants
-,,,architectural structure,,,,
-,,,catering company,,,,
-jewelry shop,shop,Q213441,facility,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22jewelry+shop%22&logop=and&notes=,,
-,,,workplace,,,,
-,,,commercial building,,,,
-bow window,Bow windows,Q767827,bay window,indoor,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22bow+window%22&logop=and&notes=,300002961,bow windows
-shopfront,shop,Q213441,facility,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22shopfront%22&logop=and&notes=,,
-,,,workplace,,,,
-,,,commercial building,,,,
-artists loft,loft,Q620861,dwelling,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22artists+loft%22&logop=and&notes=,300255116,lofts (upper level floors)
-watering hole,Q7974142,,,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22watering+hole%22&logop=and&notes=,,
-castle,castle,Q23413,fortification,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22castle%22&logop=and&notes=,300006891,castles (fortifications)
-,,,home (building),,,,
-,,,castle,,,,
-operating room,operating theater,Q1060822,room,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22operating+room%22&logop=and&notes=,300004557,operating rooms
-iceberg,iceberg,Q47568,ice,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22iceberg%22&logop=and&notes=,300132319,icebergs
-campsite,campsite,Q832778,terrain,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22campsite%22&logop=and&notes=,300008168,camps (temporary settlements)
-,,,construction,,,,
-lake,lake,Q23397,still waters,natural,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22lake%22&logop=and&notes=,300008680,lakes (bodies of water)
-,,,landform,,,,
-,,,body of water,,,,
-arena,arena,Q641226,event venue,rodeo,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22arena%22&logop=and&notes=,300007268,arenas (sports buildings)
-catacomb,catacombs,Q172896,subterranea,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22catacomb%22&logop=and&notes=,300000367,catacombs
-,,,cemetery,,,,
-,,,archaeological site,,,,
-patio,patio,Q737988,exterior space,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22patio%22&logop=and&notes=,300004108,patios (recreation areas)
-sandbox,sandpit,Q213454,playground equipment,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22sandbox%22&logop=and&notes=,300211225,sandboxes (playground equipment)
-landfill,landfill,Q152810,venue,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22landfill%22&logop=and&notes=,300000830,landfills
-,,,slag heap,,,,
-ski resort,ski resort,Q130003,sports venue,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22ski+resort%22&logop=and&notes=,300235959,ski resorts
-,,,mountain resort,,,,
-oilrig,oil platform,Q689880,offshore construction,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22oilrig%22&logop=and&notes=,300006426,oil rigs
-,,,semi-submersible,,,,
-subway station,metro station,Q928830,train station,platform,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22subway+station%22&logop=and&notes=,300007780,subway stations
-corn field,field,Q188869,geographic region,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22corn+field%22&logop=and&notes=,,
-railroad track,track,Q160342,trajectory,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22railroad+track%22&logop=and&notes=,,
-,,,railroad,,,,
-amusement park,amusement park,Q194195,leisure park,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22amusement+park%22&logop=and&notes=,300000512,amusement parks
-,,,tourist attraction,,,,
-,,,human-made geographic object,,,,
-palace,palace,Q16560,building,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22palace%22&logop=and&notes=,300005734,palaces
-,,,home (building),,,,
-basement,basement,Q234852,subterranea,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22basement%22&logop=and&notes=,300004757,basements
-,,,room,,,,
-windmill,windmill,Q38720,mill,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22windmill%22&logop=and&notes=,300006273,windmills
-,,,machine,,,,
-chemistry lab,Chemistry lab,Q3214444,laboratory,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22chemistry+lab%22&logop=and&notes=,,
-manufactured home,Manufactured housing,Q6753080,house,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22manufactured+home%22&logop=and&notes=,,
-botanical garden,botanical garden,Q167346,garden,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22botanical+garden%22&logop=and&notes=,300008107,botanical gardens
-,,,facility,,,,
-driveway,driveway,Q2251535,trail,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22driveway%22&logop=and&notes=,300008280,driveways
-market,market,Q132510,market,outdoor,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22market%22&logop=and&notes=,300005238,markets (structures)
-picnic area,park,Q22698,green space,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22picnic+area%22&logop=and&notes=,300008173,picnic areas
-,,,public space,,,,
-rice paddy,paddy field,Q842623,field,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22rice+paddy%22&logop=and&notes=,300403982,rice paddies
-stable,stable,Q214252,animal stable,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22stable%22&logop=and&notes=,300005015,stables (animal housing)
-beer garden,beer garden,Q857909,drinking establishment,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22beer+garden%22&logop=and&notes=,300005173,beer gardens
-mountain path,mountain,Q8502,terrain,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22mountain+path%22&logop=and&notes=,300008795,mountains
-,,,landform,,,,
-,,,natural geographic object,,,,
-amphitheater,amphitheatre,Q54831,performing arts center,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22amphitheater%22&logop=and&notes=,300007128,amphitheaters (built works)
-,,,architectural structure,,,,
-,,,music venue,,,,
-skyscraper,skyscraper,Q11303,high-rise building,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22skyscraper%22&logop=and&notes=,300004809,skyscrapers
-archaelogical excavation,archaeological site,Q839954,find spot,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22archaelogical+excavation%22&logop=and&notes=,,
-,,,human-geographic territorial entity,,,,
-,,,terrain,,,,
-sky,natural landscape,Q1286517,territorial entity,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22sky%22&logop=and&notes=,300263064,sky
-,,,landscape,,,,
-fire station,fire station,Q1195942,architectural structure,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22fire+station%22&logop=and&notes=,300006044,fire stations
-,,,facility,,,,
-,,,emergency service,,,,
-bakery,bakery,Q274393,food maker,shop,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22bakery%22&logop=and&notes=,300005291,bakeries
-,,,food establishment,,,,
-,,,shop,,,,
-,,,workplace,,,,
-forest path,forest,Q4421,ecosystem,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22forest+path%22&logop=and&notes=,300132451,woods (plant communities)
-,,,geographic region,,,,
-,,,vegetation zone,,,,
-medina,medina quarter,Q1128906,neighborhood,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22medina%22&logop=and&notes=,300000751,medinas
-highway,highway,Q269949,road,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22highway%22&logop=and&notes=,300008220,highways
-raceway,raceway,Q7279041,canal,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22raceway%22&logop=and&notes=,300050374,raceways
-car interior,car,Q1144312,surface vehicle,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22car+interior%22&logop=and&notes=,,
-shoe shop,shop,Q213441,facility,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22shoe+shop%22&logop=and&notes=,,
-,,,workplace,,,,
-,,,commercial building,,,,
-dining room,dining room,Q661199,room,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22dining+room%22&logop=and&notes=,300004349,dining rooms
-rainforest,rainforest,Q9444,forest,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22rainforest%22&logop=and&notes=,300008871,rainforests
-glacier,glacier,Q35666,body of water,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22glacier%22&logop=and&notes=,300008835,glaciers (bodies of water)
-racecourse,race track,Q1777138,sports venue,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22racecourse%22&logop=and&notes=,300000593,racetracks (complexes)
-,,,thoroughfare,,,,
-,,,road,,,,
-stage,stage,Q194428,construction,indoor,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22stage%22&logop=and&notes=,300004751,stages (performance spaces)
-arena,arena,Q641226,event venue,performance,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22arena%22&logop=and&notes=,300007268,arenas (sports buildings)
-runway,runway,Q184590,construction,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22runway%22&logop=and&notes=,300007918,runways (airport runways)
-,,,airport infrastructure,,,,
-aquarium,public aquarium,Q2281788,architectural structure,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22aquarium%22&logop=and&notes=,300005756,aquariums (buildings)
-,,,tourist attraction,,,,
-,,,cultural institution,,,,
-pasture,pasture,Q30121,meadow,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22pasture%22&logop=and&notes=,300008635,pastures
-coast,coast,Q93352,coastal landform,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22coast%22&logop=and&notes=,,
-embassy,chancery,Q2750585,building,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22embassy%22&logop=and&notes=,300108008,embassies
-residential neighborhood,living street,Q1628979,street,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22residential+neighborhood%22&logop=and&notes=,,
-rope bridge,rope bridge,Q157942,simple suspension bridge,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22rope+bridge%22&logop=and&notes=,,
-campus,campus,Q209465,institutional complex,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22campus%22&logop=and&notes=,300000333,campuses
-vineyard,vineyard,Q22715,plantation,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22vineyard%22&logop=and&notes=,300000248,vineyards
-temple,temple,Q44539,place of worship,asia,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22temple%22&logop=and&notes=,300007595,temples (buildings)
-,,,building,,,,
-porch,porch,Q816741,exterior space,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22porch%22&logop=and&notes=,300004132,porches
-,,,architectural structure,,,,
-barn,barn,Q1303167,agricultural building,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22barn%22&logop=and&notes=,300004900,barns
-,,,appendage,,,,
-motel,motel,Q216212,hotel,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22motel%22&logop=and&notes=,300170888,motels
-farm,farm,Q131596,rural settlement,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22farm%22&logop=and&notes=,300000206,farms
-cabin,mountain hut,Q182676,building,outdoor,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22cabin%22&logop=and&notes=,300005496,cabins (houses)
-,,,hotel,,,,
-church,church,Q16970,place of worship,outdoor,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22church%22&logop=and&notes=,300007466,churches (buildings)
-,,,building,,,,
-crevasse,crevasse,Q862193,natural object,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22crevasse%22&logop=and&notes=,,
-,,,natural phenomenon,,,,
-field road,field,Q188869,geographic region,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22field+road%22&logop=and&notes=,,
-arcade,arcade,Q186637,architectural structure,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22arcade%22&logop=and&notes=,300002580,arcades (structural assemblies)
-aqueduct,aqueduct,Q474,bridge,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22aqueduct%22&logop=and&notes=,300006165,aqueducts
-,,,aqueduct,,,,
-hayfield,hay field,Q2597692,field,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22hayfield%22&logop=and&notes=,,
-football field,association football pitch,Q8524,pitch,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22football+field%22&logop=and&notes=,300000575,football fields
-science museum,science museum,Q588140,museum,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22science+museum%22&logop=and&notes=,300312326,science museums (buildings)
-raft,Q200433,,,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22raft%22&logop=and&notes=,300212835,rafts
-pond,pond,Q3253281,still waters,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22pond%22&logop=and&notes=,300008688,ponds (water)
-,,,artificial geographic entity,,,,
-,,,body of water,,,,
-dorm room,sleeping dormitory,Q3037266,bedroom,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22dorm+room%22&logop=and&notes=,,
-atrium,atrium,Q189265,room,public,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22atrium%22&logop=and&notes=,300080798,atriums (interior spaces)
-apartment building,apartment building,Q13402009,residential building,outdoor,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22apartment+building%22&logop=and&notes=,300005707,apartment houses
-church,church,Q16970,place of worship,indoor,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22church%22&logop=and&notes=,300007466,churches (buildings)
-,,,building,,,,
-canal,canal,Q12284,architectural structure,urban,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22canal%22&logop=and&notes=,300006075,canals (waterways)
-,,,artificial landform,,,,
-,,,watercourse,,,,
-japanese garden,Japanese garden,Q15835,garden,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22japanese+garden%22&logop=and&notes=,300252129,Japanese gardens
-mountain snowy,mountain,Q8502,terrain,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22mountain+snowy%22&logop=and&notes=,300008795,mountains
-,,,landform,,,,
-,,,natural geographic object,,,,
-moat,moat,Q88480,ditch,water,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22moat%22&logop=and&notes=,300003716,moats
-lagoon,lagoon,Q187223,body of water,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22lagoon%22&logop=and&notes=,300008679,lagoons (bodies of water)
-forest,forest,Q4421,ecosystem,broadleaf,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22forest%22&logop=and&notes=,300387598,forests (plant communities)
-,,,geographic region,,,,
-,,,vegetation zone,,,,
-parking garage,multi-storey car park,Q13218805,multi-storey urban building,outdoor,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22parking+garage%22&logop=and&notes=,300007807,parking garages
-,,,parking lot,,,,
-tower,tower,Q12518,architectural structure,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22tower%22&logop=and&notes=,300004847,towers (single built works)
-pagoda,pagoda,Q199451,place of worship,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22pagoda%22&logop=and&notes=,300004829,pagodas (buildings)
-,,,architectural structure,,,,
-,,,roof shape,,,,
-dam,dam,Q12323,civil engineering construction,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22dam%22&logop=and&notes=,300006084,dams (hydraulic structures)
-,,,flood defense,,,,
-mountain,mountain,Q8502,terrain,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22mountain%22&logop=and&notes=,300008795,mountains
-,,,landform,,,,
-,,,natural geographic object,,,,
-synagogue,synagogue,Q34627,temple,outdoor,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22synagogue%22&logop=and&notes=,300007590,synagogues (buildings)
-,,,place of worship,,,,
-excavation,archaeological site,Q839954,find spot,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22excavation%22&logop=and&notes=,300266151,excavations (sites)
-,,,human-geographic territorial entity,,,,
-,,,terrain,,,,
-valley,valley,Q39816,landform,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22valley%22&logop=and&notes=,300008761,valleys (landforms)
-,,,geographic region,,,,
-,,,depression,,,,
-,,,natural geographic object,,,,
-boat deck,Q35872,,,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22boat+deck%22&logop=and&notes=,300178749,boats
-entrance hall,building,Q41176,architectural structure,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22entrance+hall%22&logop=and&notes=,300004263,entrance halls
-elevator shaft,elevator,Q132911,architectural element,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22elevator+shaft%22&logop=and&notes=,,
-,,,mode of transport,,,,
-,,,machine,,,,
-,,,lifting device,,,,
-desert road,desert,Q8514,landscape,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22desert+road%22&logop=and&notes=,300008916,deserts
-gymnasium,gymnasium,Q14092,sports venue,indoor,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22gymnasium%22&logop=and&notes=,300007297,gymnasiums
-,,,актовый зал,,,,
-cliff,cliff,Q107679,landform,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22cliff%22&logop=and&notes=,300008749,cliffs
-bamboo forest,forest,Q4421,ecosystem,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22bamboo+forest%22&logop=and&notes=,300132451,woods (plant communities)
-,,,geographic region,,,,
-,,,vegetation zone,,,,
-hardware store,hardware store,Q811530,shop,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22hardware+store%22&logop=and&notes=,300005326,hardware stores
-stadium,stadium,Q483110,arena,football,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22stadium%22&logop=and&notes=,300007271,stadiums
-,,,sports venue,,,,
-marsh,marsh,Q30198,wetland,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22marsh%22&logop=and&notes=,300008903,marshes
-river,river,Q4022,watercourse,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22river%22&logop=and&notes=,300008707,rivers
-rock arch,Arch Rock,Q2859970,,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22rock+arch%22&logop=and&notes=,,
-cockpit,cockpit,Q194156,cabin,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22cockpit%22&logop=and&notes=,300249326,cockpits (recreation spaces)
-tree house,tree house,Q5784194,house,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22tree+house%22&logop=and&notes=,300005589,tree houses
-courtyard,courtyard,Q309250,room,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22courtyard%22&logop=and&notes=,300004095,courtyards
-bullring,bullring,Q1193438,stadium,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22bullring%22&logop=and&notes=,300007291,bullrings
-carrousel,carousel,Q208322,Manège (attraction),,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22carrousel%22&logop=and&notes=,300007316,carousels (rides)
-wave,sea,Q165,body of water,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22wave%22&logop=and&notes=,300343616,waves (natural events)
-hot spring,hot spring,Q177380,spring,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22hot+spring%22&logop=and&notes=,300312197,hot springs
-ice skating rink,ice rink,Q1282870,sports venue,indoor,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22ice+skating+rink%22&logop=and&notes=,300007262,ice skating rinks
-hangar,hangar,Q192375,building,indoor,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22hangar%22&logop=and&notes=,300007768,hangars
-,,,parking lot,,,,
-ocean,ocean,Q9430,body of water,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22ocean%22&logop=and&notes=,300008687,oceans
-,,,natural geographic object,,,,
-auto factory,factory,Q83405,operation,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22auto+factory%22&logop=and&notes=,,
-,,,operation,,,,
-chalet,chalet,Q136689,house,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22chalet%22&logop=and&notes=,300005497,chalets
-lock chamber,kammersluse,Q22953352,lock,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22lock+chamber%22&logop=and&notes=,,
-repair shop,workshop,Q656720,architectural structure,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22repair+shop%22&logop=and&notes=,300006410,repair shops
-,,,workplace,,,,
-bedroom,bedroom,Q193837,room,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22bedroom%22&logop=and&notes=,300004364,bedrooms
-swamp,swamp,Q166735,wetland,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22swamp%22&logop=and&notes=,300008905,swamps
-canal,canal,Q12284,architectural structure,natural,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22canal%22&logop=and&notes=,300006075,canals (waterways)
-,,,artificial landform,,,,
-,,,watercourse,,,,
-heliport,heliport,Q502074,aerodrome,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22heliport%22&logop=and&notes=,300000686,heliports (airports)
-airfield,aerodrome,Q62447,venue,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22airfield%22&logop=and&notes=,300000679,airfields
-,,,transport infrastructure,,,,
-,,,architectural structure,,,,
-,,,geographic region,,,,
-airport terminal,airport terminal,Q849706,station,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22airport+terminal%22&logop=and&notes=,,
-volcano,volcano,Q8072,volcanic landform,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22volcano%22&logop=and&notes=,300132325,volcanoes
-living room,living room,Q475018,room,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22living+room%22&logop=and&notes=,300004435,living rooms
-ball pit,room,Q2133296,physical object,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22ball+pit%22&logop=and&notes=,,
-,,,location,,,,
-yard,yard,Q1623285,terrain,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22yard%22&logop=and&notes=,300107979,yards (open spaces)
-lobby,lobby,Q31948,interior space,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22lobby%22&logop=and&notes=,300004264,lobbies
-boathouse,boathouse,Q1777951,building,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22boathouse%22&logop=and&notes=,300007829,boathouses
-islet,islet,Q207524,island,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22islet%22&logop=and&notes=,300386852,islets
-martial arts gym,dōjō,Q203609,gymnasium,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22martial+arts+gym%22&logop=and&notes=,,
-lighthouse,lighthouse,Q39715,signal towers (elevated structures),,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22lighthouse%22&logop=and&notes=,300007741,lighthouses
-,,,navigational aid,,,,
-,,,light source,,,,
-,,,sea mark,,,,
-restaurant kitchen,kitchen,Q43164,room,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22restaurant+kitchen%22&logop=and&notes=,300004514,kitchens
-alcove,alcove,Q1067091,,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22alcove%22&logop=and&notes=,300004054,alcoves
-formal garden,Formaler Garten,Q26878911,garden,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22formal+garden%22&logop=and&notes=,300008092,formal gardens
-orchestra pit,event venue,Q18674739,architectural structure,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22orchestra+pit%22&logop=and&notes=,300100113,orchestra pits
-burial chamber,chamber tomb,Q358316,grave,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22burial+chamber%22&logop=and&notes=,300004088,burial chambers
-underwater,underwater,Q3246517,geographic region,ocean_deep,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22underwater%22&logop=and&notes=,,
-bedchamber,bedroom,Q193837,room,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22bedchamber%22&logop=and&notes=,300004364,bedrooms
-bus station,bus station,Q494829,station,indoor,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22bus+station%22&logop=and&notes=,300007805,bus stations
-,,,architectural structure,,,,
-,,,transport hub,,,,
-bookstore,bookstore,Q200764,shop,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22bookstore%22&logop=and&notes=,300005297,bookstores
-storage room,storage room,Q15710020,room,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22storage+room%22&logop=and&notes=,300004465,storage spaces
-youth hostel,hostel,Q654772,lodging,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22youth+hostel%22&logop=and&notes=,300007164,youth hostels
-,,,facility,,,,
-stadium,stadium,Q483110,arena,soccer,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22stadium%22&logop=and&notes=,300007271,stadiums
-,,,sports venue,,,,
-general store,general store,Q1244860,commercial building,outdoor,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22general+store%22&logop=and&notes=,300005354,general stores
-,,,shop,,,,
-beach house,Beach house,Q3249386,house,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22beach+house%22&logop=and&notes=,300005588,beach houses
-hunting lodge,hunting lodge,Q1424449,château,outdoor,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22hunting+lodge%22&logop=and&notes=,300007177,hunting lodges
-,,,hunting lodge,,,,
-viaduct,viaduct,Q181348,bridge,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22viaduct%22&logop=and&notes=,300007890,viaducts
-,,,civil engineering construction,,,,
-shed,shed,Q721931,construction,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22shed%22&logop=and&notes=,300006411,sheds (storage structures)
-inn,inn,Q256020,hotel,outdoor,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22inn%22&logop=and&notes=,300007170,inns
-,,,drinking establishment,,,,
-,,,restaurant,,,,
-cottage,cottage,Q5783996,house,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22cottage%22&logop=and&notes=,300005500,cottages
-desert,desert,Q8514,landscape,vegetation,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22desert%22&logop=and&notes=,300008916,deserts
-laundromat,lavoir,Q1690211,construction,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22laundromat%22&logop=and&notes=,,
-bus interior,bus,Q5638,motor vehicle,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22bus+interior%22&logop=and&notes=,300212677,buses
-,,,road vehicle,,,,
-throne room,Throne room,Q1251792,room,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22throne+room%22&logop=and&notes=,300004449,throne rooms
-restaurant patio,restaurant,Q11707,business enterprise,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22restaurant+patio%22&logop=and&notes=,300005182,restaurants
-,,,architectural structure,,,,
-,,,catering company,,,,
-escalator,escalator,Q15003,stairs,indoor,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22escalator%22&logop=and&notes=,300051244,escalators
-,,,conveyor belt,,,,
-train interior,train,Q870,wheeled vehicle,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22train+interior%22&logop=and&notes=,,
-,,,surface vehicle,,,,
-,,,rail guided transport,,,,
-balcony,balcony,Q170552,construction,interior,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22balcony%22&logop=and&notes=,300002588,balconies
-,,,part of building,,,,
-forest road,forest road,Q3444700,dirt road,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22forest+road%22&logop=and&notes=,,
-diner,diner,Q1226318,restaurant,outdoor,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22diner%22&logop=and&notes=,300005190,diners (restaurants)
-greenhouse,greenhouse,Q165044,agricultural building,indoor,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22greenhouse%22&logop=and&notes=,300004938,greenhouses
-elevator lobby,elevator,Q132911,architectural element,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22elevator+lobby%22&logop=and&notes=,,
-,,,mode of transport,,,,
-,,,machine,,,,
-,,,lifting device,,,,
-waiting room,waiting room,Q674251,room,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22waiting+room%22&logop=and&notes=,300004450,waiting rooms
-house,house,Q3947,residential building,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22house%22&logop=and&notes=,300005433,houses
-building facade,building,Q41176,architectural structure,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22building+facade%22&logop=and&notes=,300004792,buildings (structures)
-cafeteria,cafeteria,Q8463304,restaurant,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22cafeteria%22&logop=and&notes=,300004342,cafeterias (eating and drinking spaces)
-biology laboratory,laboratory,Q483242,facility,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22biology+laboratory%22&logop=and&notes=,,
-office building,office building,Q1021645,building,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22office+building%22&logop=and&notes=,300007043,office buildings
-mezzanine,mezzanine,Q958148,storey,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22mezzanine%22&logop=and&notes=,300002674,mezzanines
-bazaar,bazaar,Q219760,venue,indoor,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22bazaar%22&logop=and&notes=,300000256,bazaars (marketplaces)
-beer hall,beer hall,Q858012,drinking establishment,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22beer+hall%22&logop=and&notes=,300005174,beer halls
-flea market,flea market,Q385870,marketplace,indoor,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22flea+market%22&logop=and&notes=,300069116,flea markets
-market,market,Q132510,market,indoor,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22market%22&logop=and&notes=,300005238,markets (structures)
-kitchen,kitchen,Q43164,room,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22kitchen%22&logop=and&notes=,300004514,kitchens
-grotto,grotto,Q1131329,cave,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22grotto%22&logop=and&notes=,300006807,grottoes
-,,,work of art,,,,
-,,,architectural structure,,,,
-supermarket,supermarket,Q180846,grocery store,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22supermarket%22&logop=and&notes=,300005246,supermarkets
-vegetable garden,kitchen garden,Q624114,land use,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22vegetable+garden%22&logop=and&notes=,300008142,vegetable gardens
-,,,workplace,,,,
-,,,garden,,,,
-balcony,balcony,Q170552,construction,exterior,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22balcony%22&logop=and&notes=,300002588,balconies
-,,,part of building,,,,
-bathroom,bathroom,Q190771,room,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22bathroom%22&logop=and&notes=,300004197,bathrooms
-recreation room,Recreation room,Q2911974,room,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22recreation+room%22&logop=and&notes=,300004451,recreation rooms
-hotel room,hotel room,Q23541360,room,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22hotel+room%22&logop=and&notes=,,
-computer room,data center,Q671224,building,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22computer+room%22&logop=and&notes=,300004510,computer rooms
-wet bar,room,Q180516,interior space,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22wet+bar%22&logop=and&notes=,,
-,,,architectural structure,,,,
-fabric store,shop,Q213441,facility,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22fabric+store%22&logop=and&notes=,,
-,,,workplace,,,,
-,,,commercial building,,,,
-sushi bar,restaurant,Q11707,business enterprise,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22sushi+bar%22&logop=and&notes=,300005182,restaurants
-,,,architectural structure,,,,
-,,,catering company,,,,
-food court,Food court,Q1192284,facility,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22food+court%22&logop=and&notes=,,
-berth,berth,Q1153558,architectural structure,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22berth%22&logop=and&notes=,300007927,berths (waterfront spaces)
-,,,thoroughfare,,,,
-department store,department store,Q216107,shop,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22department+store%22&logop=and&notes=,300005344,department stores
-,,,building,,,,
-reception,cocktail party,Q1105365,eating party,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22reception%22&logop=and&notes=,300069622,receptions
-attic,attic,Q244490,room,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22attic%22&logop=and&notes=,300002651,attics (exterior stories)
-basketball court,basketball court,Q2341939,pitch,indoor,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22basketball+court%22&logop=and&notes=,,
-parking garage,multi-storey car park,Q13218805,multi-storey urban building,indoor,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22parking+garage%22&logop=and&notes=,300007807,parking garages
-,,,parking lot,,,,
-florist shop,shop,Q213441,facility,indoor,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22florist+shop%22&logop=and&notes=,300005314,florist shops
-,,,workplace,,,,
-,,,commercial building,,,,
-swimming pool,swimming pool,Q1501,sports venue,indoor,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22swimming+pool%22&logop=and&notes=,300007376,swimming pools
-,,,swimming place,,,,
-,,,water pool,,,,
-golf course,golf course,Q1048525,sports venue,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22golf+course%22&logop=and&notes=,300000586,golf courses
-closet,closet,Q1723368,room,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22closet%22&logop=and&notes=,300004467,closets (storage spaces)
-toyshop,shop,Q213441,facility,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22toyshop%22&logop=and&notes=,,
-,,,workplace,,,,
-,,,commercial building,,,,
-waterfall,waterfall,Q34038,watercourse,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22waterfall%22&logop=and&notes=,300008736,waterfalls (natural bodies of water)
-wind farm,wind farm,Q194356,power station,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22wind+farm%22&logop=and&notes=,300000445,wind power plants
-,,,wind power,,,,
-gift shop,shop,Q213441,facility,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22gift+shop%22&logop=and&notes=,,
-,,,workplace,,,,
-,,,commercial building,,,,
-athletic field,pitch,Q2310214,sports venue,outdoor,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22athletic+field%22&logop=and&notes=,300170875,athletic fields
-corridor,corridor,Q1135449,interior space,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22corridor%22&logop=and&notes=,300004294,corridors
-candy store,confectionery store,Q3574069,shop,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22candy+store%22&logop=and&notes=,300005305,confectioneries
-pet shop,Pet store,Q220142,shop,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22pet+shop%22&logop=and&notes=,300164139,pet shops
-pizzeria,pizzeria,Q1501212,restaurant,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22pizzeria%22&logop=and&notes=,,
-home office,office,Q182060,room,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22home+office%22&logop=and&notes=,300180734,home offices (workspaces)
-,,,workplace,,,,
-auto showroom,showroom,Q2094773,room,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22auto+showroom%22&logop=and&notes=,300004331,showrooms
-butte,butte,Q6554910,landform,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22butte%22&logop=and&notes=,300008744,buttes
-general store,general store,Q1244860,commercial building,indoor,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22general+store%22&logop=and&notes=,300005354,general stores
-,,,shop,,,,
-shopping mall,shopping mall,Q11315,retail building,indoor,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22shopping+mall%22&logop=and&notes=,300005270,shopping malls
-,,,retail environment,,,,
-home theater,room,Q180516,interior space,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22home+theater%22&logop=and&notes=,300252454,home theaters
-,,,architectural structure,,,,
-jacuzzi,hot tub,Q1936429,bathtub,indoor,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22jacuzzi%22&logop=and&notes=,300343457,hot tubs
-field,field,Q188869,geographic region,wild,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22field%22&logop=and&notes=,300343519,fields (land)
-fishpond,fish pond,Q1265665,pond,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22fishpond%22&logop=and&notes=,300008689,fishponds
-childs room,room,Q180516,interior space,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22childs+room%22&logop=and&notes=,300133704,rooms (interior spaces)
-,,,architectural structure,,,,
-pantry,pantry,Q258313,depot,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22pantry%22&logop=and&notes=,300004499,pantries
-,,,room,,,,
-utility room,Utility room,Q7902854,room,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22utility+room%22&logop=and&notes=,300004526,utility rooms
-playroom,room,Q180516,interior space,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22playroom%22&logop=and&notes=,300004457,playrooms
-,,,architectural structure,,,,
-roof garden,roof garden,Q1156696,garden,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22roof+garden%22&logop=and&notes=,300008131,roof gardens
-,,,roof,,,,
-,,,terrace,,,,
-garage,garage,Q22733,building,indoor,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22garage%22&logop=and&notes=,300007806,garages
-,,,parking lot,,,,
-swimming pool,swimming pool,Q1501,sports venue,outdoor,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22swimming+pool%22&logop=and&notes=,300007376,swimming pools
-,,,swimming place,,,,
-,,,water pool,,,,
-water park,water park,Q740326,theme park,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22water+park%22&logop=and&notes=,,
-amusement arcade,amusement arcade,Q260676,facility,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22amusement+arcade%22&logop=and&notes=,300007207,amusement arcades
-garage,garage,Q22733,building,outdoor,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22garage%22&logop=and&notes=,300007806,garages
-,,,parking lot,,,,
-fastfood restaurant,fast food restaurant,Q1751429,restaurant,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22fastfood+restaurant%22&logop=and&notes=,300005191,fast food restaurants
-television room,living room,Q475018,room,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22television+room%22&logop=and&notes=,300004435,living rooms
-galley,Q35872,,,,http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=%22galley%22&logop=and&notes=,300125456,galleys (watercraft)
+original_class,class_wikiname,class_id,AAT_subject_id,AAT_preffered_terms
+airfield,aerodrome,Q62447,300000679,airfields
+airplane cabin,airplane,Q197,,
+airport terminal,airport terminal,Q849706,,
+alcove,alcove,Q1067091,300004054,alcoves
+alley,alley,Q1251403,300008248,alleys (streets)
+amphitheater,amphitheatre,Q54831,300007128,amphitheaters (built works)
+amusement arcade,amusement arcade,Q260676,300007207,amusement arcades
+amusement park,amusement park,Q194195,300000512,amusement parks
+apartment building,apartment building,Q13402009,300005707,apartment houses
+aquarium,public aquarium,Q2281788,300005756,aquariums (buildings)
+aqueduct,aqueduct,Q474,300006165,aqueducts
+arcade,arcade,Q186637,300002580,arcades (structural assemblies)
+arch,arch,Q12277,300000994,arches
+archaelogical excavation,archaeological site,Q839954,,
+archive,archive,Q166118,300124822,archives (buildings)
+arena,arena,Q641226,300007268,arenas (sports buildings)
+army base,military base,Q245016,300000461,army bases
+art gallery,art gallery,Q1007870,300005232,art galleries (buildings)
+artists loft,loft,Q620861,300255116,lofts (upper level floors)
+art school,art school,Q383092,,
+art studio,studio,Q746628,,
+assembly line,factory,Q83405,,
+athletic field,pitch,Q2310214,300170875,athletic fields
+atrium,atrium,Q189265,300080798,atriums (interior spaces)
+attic,attic,Q244490,300002651,attics (exterior stories)
+auditorium,auditorium,Q230752,300004394,auditoriums
+auto factory,factory,Q83405,,
+auto showroom,showroom,Q2094773,300004331,showrooms
+badlands,Badlands,Q272921,300387013,badlands
+bakery,bakery,Q274393,300005291,bakeries
+balcony,balcony,Q170552,300002588,balconies
+ball pit,room,Q2133296,,
+ballroom,ballroom,Q805353,300004413,ballrooms
+bamboo forest,forest,Q4421,300132451,woods (plant communities)
+bank vault,Bank vault,Q3501496,,
+banquet hall,conference room,Q3469909,300004333,banquet halls
+bar,bar,Q187456,300005158,bars (commercial buildings)
+barn,barn,Q1303167,300004900,barns
+barndoor,barn,Q1303167,,barn doors
+baseball field,Baseball field,Q809889,300000567,baseball fields
+basement,basement,Q234852,300004757,basements
+basketball court,basketball court,Q2341939,,
+bathroom,bathroom,Q190771,300004197,bathrooms
+bazaar,bazaar,Q219760,300000256,bazaars (marketplaces)
+beach,beach,Q40080,300008816,beaches
+beach house,Beach house,Q3249386,300005588,beach houses
+beauty salon,beauty salon,Q1195245,300005253,beauty shops
+bedchamber,bedroom,Q193837,300004364,bedrooms
+bedroom,bedroom,Q193837,300004364,bedrooms
+beer garden,beer garden,Q857909,300005173,beer gardens
+beer hall,beer hall,Q858012,300005174,beer halls
+berth,berth,Q1153558,300007927,berths (waterfront spaces)
+biology laboratory,laboratory,Q483242,,
+boardwalk,boardwalk,Q11111030,300189544,boardwalks
+boat deck,,,300178749,boats
+boathouse,boathouse,Q1777951,300007829,boathouses
+bookstore,bookstore,Q200764,300005297,bookstores
+booth,shelter,Q7493941,300004086,booths
+botanical garden,botanical garden,Q167346,300008107,botanical gardens
+bowling alley,bowling alley,Q27106471,300007285,bowling alleys
+bow window,Bow windows,Q767827,300002961,bow windows
+boxing ring,stadium,Q483110,,
+bridge,bridge,Q12280,300007836,bridges (built works)
+building facade,building,Q41176,300004792,buildings (structures)
+bullring,bullring,Q1193438,300007291,bullrings
+burial chamber,chamber tomb,Q358316,300004088,burial chambers
+bus interior,bus,Q5638,300212677,buses
+bus station,bus station,Q494829,300007805,bus stations
+butchers shop,butcher,Q329737,300262995,butcher shops
+butte,butte,Q6554910,300008744,buttes
+cabin,mountain hut,Q182676,300005496,cabins (houses)
+cafeteria,cafeteria,Q8463304,300004342,cafeterias (eating and drinking spaces)
+campsite,campsite,Q832778,300008168,camps (temporary settlements)
+campus,campus,Q209465,300000333,campuses
+canal,canal,Q12284,300006075,canals (waterways)
+candy store,confectionery store,Q3574069,300005305,confectioneries
+canyon,canyon,Q150784,300008763,canyons
+car interior,car,Q1144312,,
+carrousel,carousel,Q208322,300007316,carousels (rides)
+castle,castle,Q23413,300006891,castles (fortifications)
+catacomb,catacombs,Q172896,300000367,catacombs
+cemetery,cemetery,Q39614,300266755,cemeteries
+chalet,chalet,Q136689,300005497,chalets
+chemistry lab,Chemistry lab,Q3214444,,
+childs room,room,Q180516,300133704,rooms (interior spaces)
+church,church,Q16970,300007466,churches (buildings)
+classroom,classroom,Q621114,300004507,classrooms
+clean room,Cleanroom,Q794827,300004509,clean rooms
+cliff,cliff,Q107679,300008749,cliffs
+closet,closet,Q1723368,300004467,closets (storage spaces)
+clothing store,clothing store,Q2090555,300005303,clothing stores
+coast,coast,Q93352,,
+cockpit,cockpit,Q194156,300249326,cockpits (recreation spaces)
+coffee shop,café,Q30022,300005187,coffee shops
+computer room,data center,Q671224,300004510,computer rooms
+conference center,convention center,Q1378975,,
+conference room,conference hall,Q1207465,300004398,conference rooms
+construction site,construction site,Q360418,300312090,construction sites
+corn field,field,Q188869,,
+corral,pen,Q858177,300004983,corrals (animal housing)
+corridor,corridor,Q1135449,300004294,corridors
+cottage,cottage,Q5783996,300005500,cottages
+courthouse,courthouse,Q1137809,300005969,courthouses
+courtyard,courtyard,Q309250,300004095,courtyards
+creek,stream,Q47521,300008706,creeks (bodies of water)
+crevasse,crevasse,Q862193,,
+crosswalk,pedestrian crossing,Q8010,300003838,crosswalks
+dam,dam,Q12323,300006084,dams (hydraulic structures)
+delicatessen,delicatessen,Q3231410,300005188,delicatessens
+department store,department store,Q216107,300005344,department stores
+desert,desert,Q8514,300008916,deserts
+desert road,desert,Q8514,300008916,deserts
+diner,diner,Q1226318,300005190,diners (restaurants)
+dining hall,dining room,Q661199,300004346,dining halls
+dining room,dining room,Q661199,300004349,dining rooms
+discotheque,discothèque,Q1228895,300007229,discotheques
+doorway,building,Q41176,300002767,doorways
+dorm room,sleeping dormitory,Q3037266,,
+downtown,central business district,Q738570,300387524,downtowns
+dressing room,wardrobe,Q10883050,300004369,dressing rooms
+driveway,driveway,Q2251535,300008280,driveways
+drugstore,drugstore,Q1260046,300005307,drugstores
+elevator,elevator,Q132911,300051186,elevators
+elevator lobby,elevator,Q132911,,
+elevator shaft,elevator,Q132911,,
+embassy,chancery,Q2750585,300108008,embassies
+engine room,engine room,Q1415781,300411419,engine rooms
+entrance hall,building,Q41176,300004263,entrance halls
+escalator,escalator,Q15003,300051244,escalators
+excavation,archaeological site,Q839954,300266151,excavations (sites)
+fabric store,shop,Q213441,,
+farm,farm,Q131596,300000206,farms
+fastfood restaurant,fast food restaurant,Q1751429,300005191,fast food restaurants
+field,field,Q188869,300343519,fields (land)
+field road,field,Q188869,,
+fire escape,fire escape,Q1430596,300003262,fire escapes
+fire station,fire station,Q1195942,300006044,fire stations
+fishpond,fish pond,Q1265665,300008689,fishponds
+flea market,flea market,Q385870,300069116,flea markets
+florist shop,shop,Q213441,300005314,florist shops
+food court,Food court,Q1192284,,
+football field,association football pitch,Q8524,300000575,football fields
+forest,forest,Q4421,300387598,forests (plant communities)
+forest path,forest,Q4421,300132451,woods (plant communities)
+forest road,forest road,Q3444700,,
+formal garden,Formaler Garten,Q26878911,300008092,formal gardens
+fountain,fountain,Q483453,300006179,fountains
+galley,,,300125456,galleys (watercraft)
+garage,garage,Q22733,300007806,garages
+gas station,gas station,Q205495,,
+gazebo,gazebo,Q961082,300006798,gazebos
+general store,general store,Q1244860,300005354,general stores
+gift shop,shop,Q213441,,
+glacier,glacier,Q35666,300008835,glaciers (bodies of water)
+golf course,golf course,Q1048525,300000586,golf courses
+greenhouse,greenhouse,Q165044,300004938,greenhouses
+grotto,grotto,Q1131329,300006807,grottoes
+gymnasium,gymnasium,Q14092,300007297,gymnasiums
+hangar,hangar,Q192375,300007768,hangars
+harbor,harbor,Q283202,300008678,harbors
+hardware store,hardware store,Q811530,300005326,hardware stores
+hayfield,hay field,Q2597692,,
+heliport,heliport,Q502074,300000686,heliports (airports)
+highway,highway,Q269949,300008220,highways
+home office,office,Q182060,300180734,home offices (workspaces)
+home theater,room,Q180516,300252454,home theaters
+hospital,hospital,Q16917,300006676,hospitals (buildings for health facility)
+hospital room,hospital,Q180370,,
+hotel,hotel,Q27686,300131655,hôtels (town houses)
+hotel room,hotel room,Q23541360,,
+hot spring,hot spring,Q177380,300312197,hot springs
+house,house,Q3947,300005433,houses
+hunting lodge,hunting lodge,Q1424449,300007177,hunting lodges
+iceberg,iceberg,Q47568,300132319,icebergs
+ice cream parlor,ice cream parlor,Q1311064,300005194,ice cream parlors
+ice floe,sea ice,Q213926,300391207,ice floes
+ice shelf,ice shelf,Q46966,,
+ice skating rink,ice rink,Q1282870,300007262,ice skating rinks
+igloo,igloo,Q101805,300005601,igloos
+industrial area,industrial park,Q329683,,industrial districts
+inn,inn,Q256020,300007170,inns
+islet,islet,Q207524,300386852,islets
+jacuzzi,hot tub,Q1936429,300343457,hot tubs
+jail cell,prison cell,Q686534,300417303,prison cells
+japanese garden,Japanese garden,Q15835,300252129,Japanese gardens
+jewelry shop,shop,Q213441,,
+junkyard,landfill,Q152810,300000826,junkyards
+kasbah,Kasbah,Q89468,300263690,casbahs
+kennel,kennel,Q2724542,300004993,kennels (animal housing)
+kindergarden classroom,classroom,Q621114,300004507,classrooms
+kitchen,kitchen,Q43164,300004514,kitchens
+lagoon,lagoon,Q187223,300008679,lagoons (bodies of water)
+lake,lake,Q23397,300008680,lakes (bodies of water)
+landfill,landfill,Q152810,300000830,landfills
+landing deck,flight deck,Q622031,,
+laundromat,lavoir,Q1690211,,
+lawn,lawn,Q207766,300008889,lawns (landscaped grass)
+lecture room,reading room,Q1753764,300004434,reading rooms
+legislative chamber,debate chamber,Q25036082,,
+library,library building,Q856584,300006824,libraries (buildings)
+lighthouse,lighthouse,Q39715,300007741,lighthouses
+living room,living room,Q475018,300004435,living rooms
+loading dock,loading dock,Q1799919,300004279,loading docks
+lobby,lobby,Q31948,300004264,lobbies
+lock chamber,kammersluse,Q22953352,,
+locker room,changing room,Q1070054,300004120,locker rooms
+mansion,mansion,Q1802963,300071272,mansions
+manufactured home,Manufactured housing,Q6753080,,
+market,market,Q132510,300005238,markets (structures)
+marsh,marsh,Q30198,300008903,marshes
+martial arts gym,dōjō,Q203609,,
+mausoleum,mausoleum,Q162875,300005891,mausoleums
+medina,medina quarter,Q1128906,300000751,medinas
+mezzanine,mezzanine,Q958148,300002674,mezzanines
+moat,moat,Q88480,300003716,moats
+mosque,mosque,Q32815,300007544,mosques (buildings)
+motel,motel,Q216212,300170888,motels
+mountain,mountain,Q8502,300008795,mountains
+mountain path,mountain,Q8502,300008795,mountains
+mountain snowy,mountain,Q8502,300008795,mountains
+movie theater,movie theater,Q41253,300007135,motion picture theaters
+museum,museum building,Q24699794,300005768,museums (buildings)
+music studio,studio,Q746628,,
+natural history museum,natural history museum,Q1970365,300312323,natural history museums (buildings)
+nursery,nursery,Q1741939,300004380,nurseries (rooms)
+nursing home,nursing home,Q837142,300006709,nursing homes
+oast house,oast house,Q1166574,300263280,oasthouses
+ocean,ocean,Q9430,300008687,oceans
+office,office,Q182060,300004521,offices (work spaces)
+office building,office building,Q1021645,300007043,office buildings
+office cubicles,cubicle,Q1549531,300299165,entry cubicles
+oilrig,oil platform,Q689880,300006426,oil rigs
+operating room,operating theater,Q1060822,300004557,operating rooms
+orchard,orchard,Q236371,300008890,orchards
+orchestra pit,event venue,Q18674739,300100113,orchestra pits
+pagoda,pagoda,Q199451,300004829,pagodas (buildings)
+palace,palace,Q16560,300005734,palaces
+pantry,pantry,Q258313,300004499,pantries
+park,park,Q22698,300008187,parks (recreation areas)
+parking garage,multi-storey car park,Q13218805,300007807,parking garages
+parking lot,parking lot,Q6501349,300007826,parking lots
+pasture,pasture,Q30121,300008635,pastures
+patio,patio,Q737988,300004108,patios (recreation areas)
+pavilion,pavilion,Q276173,300002660,pavilions (building divisions)
+pet shop,Pet store,Q220142,300164139,pet shops
+pharmacy,pharmacy,Q13107184,300054520,pharmacy
+phone booth,telephone booth,Q1143785,300005422,telephone booths
+physics laboratory,physics laboratory,Q1814169,,
+picnic area,park,Q22698,300008173,picnic areas
+pier,pier,Q863454,300120779,piers (marine landings)
+pizzeria,pizzeria,Q1501212,,
+playground,playground,Q13607440,300008203,playgrounds
+playroom,room,Q180516,300004457,playrooms
+plaza,square,Q174782,300387394,plazas (squares)
+pond,pond,Q3253281,300008688,ponds (water)
+porch,porch,Q816741,300004132,porches
+promenade,promenade,Q787113,300008329,promenades (walkways)
+pub,pub,Q212198,300005166,pubs
+racecourse,race track,Q1777138,300000593,racetracks (complexes)
+raceway,raceway,Q7279041,300050374,raceways
+raft,,,300212835,rafts
+railroad track,track,Q160342,,
+rainforest,rainforest,Q9444,300008871,rainforests
+reception,cocktail party,Q1105365,300069622,receptions
+recreation room,Recreation room,Q2911974,300004451,recreation rooms
+repair shop,workshop,Q656720,300006410,repair shops
+residential neighborhood,living street,Q1628979,,
+restaurant,restaurant,Q11707,300005182,restaurants
+restaurant kitchen,kitchen,Q43164,300004514,kitchens
+restaurant patio,restaurant,Q11707,300005182,restaurants
+rice paddy,paddy field,Q842623,300403982,rice paddies
+river,river,Q4022,300008707,rivers
+rock arch,Arch Rock,Q2859970,,
+roof garden,roof garden,Q1156696,300008131,roof gardens
+rope bridge,rope bridge,Q157942,,
+ruin,ruins,Q109607,300008057,ruins
+runway,runway,Q184590,300007918,runways (airport runways)
+sandbox,sandpit,Q213454,300211225,sandboxes (playground equipment)
+sauna,sauna,Q57036,300004235,saunas (spaces)
+schoolhouse,school building,Q1244442,300266732,schoolhouses
+science museum,science museum,Q588140,300312326,science museums (buildings)
+server room,Server room,Q1973185,,
+shed,shed,Q721931,300006411,sheds (storage structures)
+shoe shop,shop,Q213441,,
+shopfront,shop,Q213441,,
+shopping mall,shopping mall,Q11315,300005270,shopping malls
+shower,shower,Q7863,,
+ski resort,ski resort,Q130003,300235959,ski resorts
+ski slope,piste,Q1281105,,
+sky,natural landscape,Q1286517,300263064,sky
+skyscraper,skyscraper,Q11303,300004809,skyscrapers
+slum,slum,Q201759,300000753,slums
+snowfield,snow field,Q1365419,300266569,snowfields
+soccer field,football ground,Q39463060,300000582,soccer fields
+stable,stable,Q214252,300005015,stables (animal housing)
+stadium,stadium,Q483110,300007271,stadiums
+stage,stage,Q194428,300004751,stages (performance spaces)
+staircase,stairs,Q12511,300003228,stairs
+storage room,storage room,Q15710020,300004465,storage spaces
+street,street,Q79007,300008247,streets
+subway station,metro station,Q928830,300007780,subway stations
+supermarket,supermarket,Q180846,300005246,supermarkets
+sushi bar,restaurant,Q11707,300005182,restaurants
+swamp,swamp,Q166735,300008905,swamps
+swimming hole,Swimming hole,Q7658373,,
+swimming pool,swimming pool,Q1501,300007376,swimming pools
+synagogue,synagogue,Q34627,300007590,synagogues (buildings)
+television room,living room,Q475018,300004435,living rooms
+television studio,television studio,Q511355,300005394,television studios
+temple,temple,Q44539,300007595,temples (buildings)
+throne room,Throne room,Q1251792,300004449,throne rooms
+ticket booth,billetterie informatisée,Q2903541,,
+topiary garden,garden,Q1107656,300008090,gardens (open spaces)
+tower,tower,Q12518,300004847,towers (single built works)
+toyshop,shop,Q213441,,
+train interior,train,Q870,,
+train station,train station,Q55488,300007783,railroad station
+tree farm,Tree farm,Q2843044,300000218,tree farms
+tree house,tree house,Q5784194,300005589,tree houses
+trench,trench,Q1852785,300008022,trenches
+tundra,tundra,Q43262,300008921,tundras
+underwater,underwater,Q3246517,,
+utility room,Utility room,Q7902854,300004526,utility rooms
+valley,valley,Q39816,300008761,valleys (landforms)
+vegetable garden,kitchen garden,Q624114,300008142,vegetable gardens
+veterinarians office,doctor's office,Q718966,,
+viaduct,viaduct,Q181348,300007890,viaducts
+village,village,Q532,300008372,villages
+vineyard,vineyard,Q22715,300000248,vineyards
+volcano,volcano,Q8072,300132325,volcanoes
+volleyball court,volleyball court,Q26707613,,
+waiting room,waiting room,Q674251,300004450,waiting rooms
+waterfall,waterfall,Q34038,300008736,waterfalls (natural bodies of water)
+watering hole,,,,
+water park,water park,Q740326,,
+water tower,water tower,Q274153,300006204,water towers
+wave,sea,Q165,300343616,waves (natural events)
+wet bar,room,Q180516,,
+wheat field,field,Q188869,,
+wind farm,wind farm,Q194356,300000445,wind power plants
+windmill,windmill,Q38720,300006273,windmills
+yard,yard,Q1623285,300107979,yards (open spaces)
+youth hostel,hostel,Q654772,300007164,youth hostels
+zen garden,Japanese rock garden,Q244226,,

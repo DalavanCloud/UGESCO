@@ -31,5 +31,5 @@ def getLCS(array):
 
     return [x.text for x in soup.find_all("literal")]
 
-print(getLCS(array))
 
+print(getLCS(array))

@@ -12,9 +12,8 @@ import requests_cache
 requests_cache.install_cache('wikidata_cache')
 
 
-
 def get_wikidata(query, type_id, prop_id, prop_value):
-  """ Use the Antonin's API to return the best match on Wikidata based on type and a property.
+  """ Use the Antonin's API to return the best match on Wikidata based on the type and a property.
   Best match = exact match, or higher score + lesser qid magnitude
   The result is a tuple (id_magnitude, main_type, match, name, qid, score)
   Example : get_wikidata('Binche', 'Q618123', 'P17', 'Q31')
@@ -74,4 +73,3 @@ def get_wikidata(query, type_id, prop_id, prop_value):
 
 
 print(get_wikidata('Binche', 'Q618123', 'P17', 'Q31'))
-

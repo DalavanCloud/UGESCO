@@ -5,6 +5,26 @@ import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 from flatten_json import flatten
+from rosette.api import API, DocumentParameters, RosetteException
+
+def rosette(text):
+    """ Extract PER, LOC, ORG, TITLE, DATE... from a text with Rosette API """
+    # Create an API instance
+    api = API(user_key="c3a4cbadf2c7be90a768b0269282209b",
+              service_url="https://api.rosette.com/rest/v1/")
+    params = DocumentParameters()
+    params["content"] = text
+    params["genre"] = "social-media"
+    # Extract entities
+    liste = []
+    try:
+        result = api.entities(params)
+        for i in result['entities']:
+            liste.append(i['type'] + "||" +
+                         i['normalized'] + "||" + i['mention'])
+        return ",".join(liste)
+    except RosetteException as exception:
+        return exception
 
 #fonction qui sert à splitter les colonnes multivaluées
 def tidy_split(df, column, sep, keep=False):

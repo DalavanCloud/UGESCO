@@ -1,9 +1,8 @@
 # -*- coding: utf-8 -*-
 import requests
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup #the result is in XML
 
-item = "Q32815"
-
+item = "Q239" #example with Bruxelles, which has 'instance of' but no direct 'subclass of'
 
 def getClass(item):
     """
@@ -11,7 +10,7 @@ def getClass(item):
     """
     query = {"query": """
     SELECT ?classe ?classeLabel WHERE { 
-    wd:%s wdt:P279 ?classe . 
+    wd:%s wdt:P31/wdt:P279* ?classe . 
 
     SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". } 
     }

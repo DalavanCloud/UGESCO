@@ -4,8 +4,41 @@ import numpy as np
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
+import warnings
 from flatten_json import flatten
 from rosette.api import API, DocumentParameters, RosetteException
+
+warnings.filterwarnings("ignore", category=DeprecationWarning, module='bs4')
+
+
+def isQidACity(item):
+    """
+    Test if an items is considered as a city in the Wikidata ontology.
+    The answer can be True, False or None.
+    """
+    query = {"query": """
+    SELECT ?classe WHERE { 
+    wd:%s wdt:P31/wdt:P279* ?classe . 
+
+    }
+    """ % (item)
+    }
+
+    url = "https://query.wikidata.org/sparql"
+
+    r = requests.get(url, params=query)
+
+    soup = BeautifulSoup(r.text, "lxml")
+
+    result = [x.text.split("/")[-1] for x in soup.find_all("uri")]
+
+    if "Q15284" in result:
+        return True
+    elif len(result) == 0:
+        return None
+    else:
+        return False
+
 
 def rosette(text):
     """ Extract PER, LOC, ORG, TITLE, DATE... from a text with Rosette API """

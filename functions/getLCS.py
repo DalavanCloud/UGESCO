@@ -2,7 +2,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-array = ["Q32815", "Q34627"]
+array = ["Q32815", "Q34627"] #mosque and synagogue
 
 
 def getLCS(array):

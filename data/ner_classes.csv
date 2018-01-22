@@ -1,0 +1,9 @@
+ner_class,wiki_qid,wiki_class
+LOC_BUILDING,Q41176,building
+LOC_MISC,Q2221906,geographic location
+LOC_MONUMENT,Q4989906,monument
+LOC_PLACE,Q56061,administrative territorial entity
+LOC_ROADS,Q83620,thoroughfare
+LOC_SPACES,Q294440,public space
+LOC_STREET,Q83620,thoroughfare
+LOC_WATERWAYS,Q1267889,waterway 

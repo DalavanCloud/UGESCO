@@ -11,6 +11,7 @@ from rosette.api import API, DocumentParameters, RosetteException
 from nltk.tag import StanfordNERTagger
 from nltk.tokenize import word_tokenize
 
+#chemins vers l'appli Stanford NER et le modèle CRF Europeana
 MODEL = r'D:\stanford-ner-2017-06-09\classifiers\eunews.fr.crf.gz'
 STANFORD_JAR = r'D:\stanford-ner-2017-06-09\stanford-ner.jar'
 

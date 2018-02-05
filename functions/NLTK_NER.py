@@ -9,6 +9,9 @@ La fonction est lente --> songer au multiprocessing
 from nltk.tag import StanfordNERTagger
 from nltk.tokenize import word_tokenize
 
+MODEL = r'D:\stanford-ner-2017-06-09\classifiers\eunews.fr.crf.gz'
+STANFORD_JAR = r'D:\stanford-ner-2017-06-09\stanford-ner.jar'
+
 
 def classify(text):
     """
@@ -17,8 +20,8 @@ def classify(text):
     http://lab.kbresearch.nl/static/html/eunews.html
     Récrire cette partie en utilisant pathlib pour éviter les chemins absolus
     """
-    st = StanfordNERTagger(r'D:\stanford-ner-2017-06-09\classifiers\eunews.fr.crf.gz',
-                           r'D:\stanford-ner-2017-06-09\stanford-ner.jar',
+    st = StanfordNERTagger(MODEL,
+                           STANFORD_JAR,
                            encoding='utf-8')
 
     tokenized_text = word_tokenize(text)

@@ -7,14 +7,15 @@ Created on Wed Jan  3 11:52:22 2018
 
 from polyglot.text import Text
 
+
 def polyglot_loc(x):
     """extract a list of locations from the string X
     using polyglot NER. Remove duplicates and nested locs ('Mons - sur')"""
 
     text = Text(x)
-    
+
     liste = []
-    liste2 = []
+    result = []
     # Print the type of each entity
     try:
         for ents in text.entities:
@@ -25,12 +26,13 @@ def polyglot_loc(x):
     try:
         for i, el in enumerate(liste):
             el = el.replace(' - ', '-')
-            if liste[i] not in liste[i+1]:
-                liste2.append(el)
+            if liste[i] not in liste[i + 1]:
+                result.append(el)
 
     except IndexError:
-        liste2.append(el)
-    return list(set(liste2))
-    
-print(polyglot_loc("""nous sommes rentrés hier de Bruxelles après être passés par Morlanwelz."""))
+        result.append(el)
+    return list(set(result))
 
+
+print(polyglot_loc(
+    """nous sommes rentrés hier de Bruxelles après être passés par Paris."""))

@@ -9,11 +9,11 @@ import pandas as pd
 from flatten_json import flatten
 
 
-def json_to_df(file):
+def json_to_df(json_file):
     """
     Input a json file, flatten it and return it as dataframe
     """
-    with open(r"C:\Users\ettor\Documents\GitHub\UGESCO\data\jsondata_ugesco.json", "r") as f:
+    with open(json_file, encoding="utf8") as f:
         json_file = json.load(f)
 
     df = pd.DataFrame([flatten(line) for line in json_file])

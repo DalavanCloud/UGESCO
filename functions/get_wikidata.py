@@ -31,7 +31,7 @@ def get_wikidata(query, type_id, prop_id, prop_value):
 
   r = requests.get(base_url, params=query)
 
-  # print(r.url)
+  print(r.url)
 
   json_result = r.json()
 
@@ -71,5 +71,5 @@ def get_wikidata(query, type_id, prop_id, prop_value):
   except IndexError:
     return "No match"
 
-
-print(get_wikidata('Binche', 'Q618123', 'P17', 'Q31'))
+#TODO régler le problème des erreurs si pas de propriétés
+print(get_wikidata('rue de la braie', 'None', 'None', 'None'))

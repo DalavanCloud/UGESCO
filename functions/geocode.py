@@ -32,7 +32,7 @@ if __name__ == '__main__':
             'location': 'rue de bruxelles braine-le-comte',
             'heading': '151.78',
             'pitch': '-0.76',
-            'key': 'AIzaSyA9rAKcbJITiJbVGxS-fC5E-k0b2S98MMo'
+            'key': ''
         }]
 
         # Create a results object

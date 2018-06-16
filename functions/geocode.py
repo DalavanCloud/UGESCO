@@ -3,12 +3,13 @@
 from geopy.geocoders import Nominatim
 
 
-def geocode(value, country, one=True):
+def geocode(value, country, one=False):
     geolocator = Nominatim(country_bias=country,
                            user_agent='ettorerizza@gmail.com')
 
     location = geolocator.geocode(value,
                                   exactly_one=one,
+                                  timeout = 3,
                                   limit=None,
                                   addressdetails=True, 
                                   language="FR",
@@ -16,10 +17,10 @@ def geocode(value, country, one=True):
     liste = []
     try:
         if len(location) == 2:
-            return location.raw
+            return location.address #remplacer address par raw pour avoir tous les détails
         else:
             for i in location:
-                liste.append(i.raw)
+                liste.append(i.address)
             return liste
 
     except Exception as inst:
@@ -28,4 +29,4 @@ def geocode(value, country, one=True):
 
 if __name__ == '__main__':
 
-    print(geocode("arc de triomphe", "FR"))
+    print(geocode("arc de triomphe", ""))

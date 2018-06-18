@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db71ba6f-fd3b-42b8-b7ea-d10126f9d039" name="Default" comment="premier commit">
-      <change beforePath="$PROJECT_DIR$/functions/geocode.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/geocode.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/get_wikidata.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/get_wikidata.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/wikidata_cache.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/functions/wikidata_cache.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/get_nominatim.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/get_nominatim.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -62,8 +60,8 @@
       <file leaf-file-name="get_wikidata.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/functions/get_wikidata.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="64" column="25" lean-forward="true" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
+            <state relative-caret-position="323">
+              <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
               <folding>
                 <element signature="e#85#104#0" expanded="true" />
               </folding>
@@ -393,7 +391,7 @@
       <window_info anchor="bottom" id="Find" order="5" />
       <window_info anchor="bottom" id="Version Control" order="1" weight="0.32909605" />
       <window_info anchor="bottom" id="Python Console" order="2" sideWeight="0.49785176" visible="true" weight="0.32768363" />
-      <window_info active="true" anchor="right" id="Run" order="3" sideWeight="0.49561402" visible="true" weight="0.41073826" />
+      <window_info anchor="right" id="Run" order="3" sideWeight="0.49561402" weight="0.41073826" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24973147" />
       <window_info anchor="bottom" id="Terminal" order="3" weight="0.32930845" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -635,8 +633,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/functions/get_wikidata.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="64" column="25" lean-forward="true" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
+        <state relative-caret-position="323">
+          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
           <folding>
             <element signature="e#85#104#0" expanded="true" />
           </folding>

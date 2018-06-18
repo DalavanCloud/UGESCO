@@ -10,13 +10,14 @@ def get_nominatim(value, countrycodes=['BE',''], limit=5, lang="fr"):
     # doc : https://wiki.openstreetmap.org/wiki/Nominatim
     url = 'http://nominatim.openstreetmap.org/'
 
+    # sortir ceci de la fonction ?
     s = requests.Session()
 
     params = {'q': value,
               'format': 'jsonv2',
               'addressdetails': 1,
               'limit': limit,
-              'email': 'yourmail@mail.com',
+              'email': 'ettorerizza@mail.com',
               'polygon_kml': 0,
               'extratags': 1,
               'namedetails': 0,
@@ -29,7 +30,7 @@ def get_nominatim(value, countrycodes=['BE',''], limit=5, lang="fr"):
 
     headers = {
         'User-Agent': 'Ugesco app',
-        'From': 'yourmail@mail.com'
+        'From': 'ettorerizza@mail.com'
     }
 
     result = s.get(url, params=params, headers=headers, timeout=10).json()

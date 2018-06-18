@@ -9,19 +9,20 @@ def geocode(value, country, one=False):
 
     location = geolocator.geocode(value,
                                   exactly_one=one,
-                                  timeout = 3,
+                                  timeout=4,
                                   limit=None,
-                                  addressdetails=True, 
+                                  addressdetails=True,
                                   language="FR",
                                   geometry="KML")
     liste = []
     try:
-        if len(location) == 2:
-            return location.address #remplacer address par raw pour avoir tous les détails
-        else:
-            for i in location:
-                liste.append(i.address)
-            return liste
+    	if location:
+	        if len(location) == 2:
+	            return location  # remplacer address par raw pour avoir tous les détails
+	        else:
+	            for i in location:
+	                liste.append(i)
+	            return liste
 
     except Exception as inst:
         print(inst)
@@ -29,4 +30,4 @@ def geocode(value, country, one=False):
 
 if __name__ == '__main__':
 
-    print(geocode("arc de triomphe", ""))
+    print(geocode("Boulevard Anspacht Bruxelles Galeries Anspach Brussels", ""))

@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db71ba6f-fd3b-42b8-b7ea-d10126f9d039" name="Default" comment="premier commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/geocode.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/geocode.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions/get_wikidata.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/get_wikidata.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/wikidata_cache.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/functions/wikidata_cache.sqlite" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -61,8 +62,11 @@
       <file leaf-file-name="get_wikidata.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/functions/get_wikidata.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="73" column="1" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="1" />
+            <state relative-caret-position="88">
+              <caret line="64" column="25" lean-forward="true" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
+              <folding>
+                <element signature="e#85#104#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,8 +95,8 @@
       <file leaf-file-name="wdtaxonomy.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions/wdtaxonomy.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="102">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="e#0#17#0" expanded="true" />
               </folding>
@@ -161,6 +165,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="UGESCO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UGESCO" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UGESCO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UGESCO" type="462c0819:PsiDirectoryNode" />
+              <item name="functions" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -177,22 +197,6 @@
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="UGESCO" type="cbb8eebc:String" user="UGESCO" />
               <item name="functions" type="cbb8eebc:String" user="functions" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="UGESCO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UGESCO" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UGESCO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UGESCO" type="462c0819:PsiDirectoryNode" />
-              <item name="functions" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -226,7 +230,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.wdtaxonomy">
+  <component name="RunManager" selected="Python.get_wikidata">
     <configuration name="csv_to_nested_json" type="PythonConfigurationType" factoryName="Python">
       <module name="UGESCO" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -346,10 +350,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.get_wikidata" />
         <item itemvalue="Python.wdtaxonomy" />
         <item itemvalue="Python.is_city" />
         <item itemvalue="Python.get_wikidata_items" />
-        <item itemvalue="Python.get_wikidata" />
         <item itemvalue="Python.json_to_csv" />
       </list>
     </recent_temporary>
@@ -370,7 +374,7 @@
     </task>
     <servers />
   </component>
-  <component name="TodoView" selected-index="1">
+  <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -381,20 +385,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18770654" />
-      <window_info active="true" anchor="bottom" id="TODO" order="9" visible="true" weight="0.32909605" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19060403" />
+      <window_info anchor="bottom" id="TODO" order="9" weight="0.32909605" />
       <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.5021482" side_tool="true" weight="0.32842582" />
       <window_info anchor="bottom" id="Find" order="5" />
       <window_info anchor="bottom" id="Version Control" order="1" weight="0.32909605" />
-      <window_info anchor="bottom" id="Python Console" order="2" sideWeight="0.49785176" weight="0.32768363" />
-      <window_info anchor="right" id="Run" order="3" sideWeight="0.49561402" weight="0.41073826" />
+      <window_info anchor="bottom" id="Python Console" order="2" sideWeight="0.49785176" visible="true" weight="0.32768363" />
+      <window_info active="true" anchor="right" id="Run" order="3" sideWeight="0.49561402" visible="true" weight="0.41073826" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24973147" />
       <window_info anchor="bottom" id="Terminal" order="3" weight="0.32930845" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.3983051" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="10" weight="0.32993197" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="4" sideWeight="0.50438595" side_tool="true" weight="0.3984375" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" id="Data View" order="4" />
@@ -403,7 +408,7 @@
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="10" weight="0.32993197" />
+      <window_info anchor="right" id="Coverage" order="4" sideWeight="0.50438595" side_tool="true" weight="0.3984375" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -620,8 +625,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/functions/wdtaxonomy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="102">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#0#17#0" expanded="true" />
           </folding>
@@ -630,8 +635,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/functions/get_wikidata.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="73" column="1" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="1" />
+        <state relative-caret-position="88">
+          <caret line="64" column="25" lean-forward="true" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
+          <folding>
+            <element signature="e#85#104#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -9,29 +9,32 @@ import pandas as pd
 import requests
 import requests_cache
 
+
 requests_cache.install_cache('wikidata_cache')
 
 
-def get_wikidata(query, type_id, prop_id, prop_value):
+def get_wikidata(value, type_id, prop_id='', prop_value='', lang="en"):
   """ Use the Antonin's API to return the best match on Wikidata based on the type and a property.
-  Best match = exact match, or higher score + lesser qid magnitude
-  The result is a tuple (id_magnitude, main_type, match, name, qid, score)
+  The result is a tuple (main_type, match, name, qid, score)
   Example : get_wikidata('Binche', 'Q618123', 'P17', 'Q31')
-  Result : (95121, 'municipality of Belgium', False, 'Binche', 'Q95121', 100.0)
+  Result : ('municipality of Belgium', False, 'Binche', 'Q95121', 100.0)
   """
-  base_url = "https://tools.wmflabs.org/openrefine-wikidata/en/api"
+  base_url = "https://tools.wmflabs.org/openrefine-wikidata/%s/api" % (lang)
 
   query = {"query": """{"query":"%s",
-                      "limit":6,
+                      "limit":0,
+                      "type" : "%s"}""" % (value, type_id)}
+
+  if prop_id or prop_value:
+    query = {"query": """{"query":"%s",
+                      "limit":0,
                       "type" : "%s",
-                      "properties" : [
-                         {"pid":"%s","v":"%s"}
-                         ]
-                         }""" % (query, type_id, prop_id, prop_value)}
+                      "properties":[{"pid":"%s",
+                      "v":{"id":"%s"}}]}""" % (value, type_id, prop_id, prop_value)}
 
   r = requests.get(base_url, params=query)
 
-  print(r.url)
+  # print(r.url)
 
   json_result = r.json()
 
@@ -39,8 +42,6 @@ def get_wikidata(query, type_id, prop_id, prop_value):
 
   try:
     qid = [d['id'] for d in json_result['result']]
-    id_magnitude = [int(d['id'].replace("Q", ''))
-                    for d in json_result['result']]
     name = [d['name'] for d in json_result['result']]
     score = [d['score'] for d in json_result['result']]
     match = [d['match'] for d in json_result['result']]
@@ -48,21 +49,20 @@ def get_wikidata(query, type_id, prop_id, prop_value):
 
     df = pd.DataFrame({'qid': qid,
                        'name': name,
-                       'id_magnitude': id_magnitude,
                        'score': score,
                        'match': match,
                        'main_type': main_type
                        })
 
-    # order by score then by inverse qid magnitude. NOTE : magnitude inutile depuis qu'Antonin a modifié l'API
-    df.sort_values(['score', 'id_magnitude'], ascending=[
-                   False, True], inplace=True)
+    # order by score
+    df.sort_values(['score'], ascending=[
+                   False], inplace=True)
 
     # select the best match
     match = df[df['match'] == True].values
 
     if match.size > 0:
-      best_match = match
+      best_match = tuple(map(tuple, match))[0]
     else:
       best_match = tuple(map(tuple, df.iloc[[0]].values))[0]
 
@@ -71,5 +71,8 @@ def get_wikidata(query, type_id, prop_id, prop_value):
   except IndexError:
     return "No match"
 
-#TODO régler le problème des erreurs si pas de propriétés
-print(get_wikidata('rue de la braie', 'None', 'None', 'None'))
+
+if __name__ == '__main__':
+
+  print(get_wikidata('Binche', 'Q618123', 'P31', 'Q15273785', "fr"))
+  print(get_wikidata('Binche', 'Q618123'))

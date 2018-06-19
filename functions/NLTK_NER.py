@@ -8,6 +8,8 @@ La fonction est lente --> songer au multiprocessing
 
 from nltk.tag import StanfordNERTagger
 from nltk.tokenize import word_tokenize
+import warnings
+warnings.filterwarnings("ignore")
 
 MODEL = r'D:\stanford-ner-2017-06-09\classifiers\eunews.fr.crf.gz'
 STANFORD_JAR = r'D:\stanford-ner-2017-06-09\stanford-ner.jar'
@@ -70,6 +72,6 @@ def get_ner(text):
 
 if __name__ == '__main__':
 
-    text = "Nous voilà arrivés à Namur. Ceci est l'entrepot Dod, situé rue de la Ferronerie."
+    text = """Char américain dans la rue de France, le 3 septembre 1944 (Philippeville)."""
 
     print(get_ner(text))

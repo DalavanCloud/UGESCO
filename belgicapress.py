@@ -18,7 +18,7 @@ import spotlight #https://pypi.python.org/pypi/pyspotlight/0.7.1
 import langid
 import warnings
 warnings.filterwarnings("ignore", category=UserWarning, module='bs4')
-# -*- coding: utf-8 -*-
+
 
 def fuzzy_match(value, liste):
     result, score = process.extractOne(value, liste)

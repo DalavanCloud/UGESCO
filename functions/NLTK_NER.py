@@ -5,11 +5,12 @@ entrainés sur des journaux :
 http://lab.kbresearch.nl/static/html/eunews.html
 La fonction est lente --> songer au multiprocessing
 """
-
-from nltk.tag import StanfordNERTagger
-from nltk.tokenize import word_tokenize
 import warnings
-warnings.filterwarnings("ignore")
+with warnings.catch_warnings():
+    warnings.filterwarnings("ignore",category=DeprecationWarning)
+    from nltk.tag import StanfordNERTagger
+    from nltk.tokenize import word_tokenize
+
 
 MODEL = r'D:\stanford-ner-2017-06-09\classifiers\eunews.fr.crf.gz'
 STANFORD_JAR = r'D:\stanford-ner-2017-06-09\stanford-ner.jar'

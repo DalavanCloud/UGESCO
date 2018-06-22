@@ -1,9 +1,12 @@
 # -*- coding: utf-8 -*-
 import json
+import re
+import string
 import numpy as np
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
+from unidecode import unidecode
 import warnings
 warnings.filterwarnings("ignore", category=DeprecationWarning, module='bs4')
 from flatten_json import flatten
@@ -11,9 +14,78 @@ from rosette.api import API, DocumentParameters, RosetteException
 from nltk.tag import StanfordNERTagger
 from nltk.tokenize import word_tokenize
 
-#chemins vers l'appli Stanford NER et le modèle CRF Europeana
+# chemins vers l'appli Stanford NER et le modèle CRF Europeana
 MODEL = r'D:\stanford-ner-2017-06-09\classifiers\eunews.fr.crf.gz'
 STANFORD_JAR = r'D:\stanford-ner-2017-06-09\stanford-ner.jar'
+
+PUNCTUATION = re.compile('[%s]' % re.escape(string.punctuation))
+
+
+class Fingerprinter(object):
+    '''
+    Python implementation of Google Refine fingerprinting algorithm described here:
+    https://github.com/OpenRefine/OpenRefine/wiki/Clustering-In-Depth
+    Requires the unidecode module: https://github.com/iki/unidecode
+    '''
+    def __init__(self, string):
+        self.string = self._preprocess(string)
+
+    def _preprocess(self, string):
+        '''
+        Strip leading and trailing whitespace, lowercase the string, remove all punctuation,
+        in that order.
+        '''
+        return PUNCTUATION.sub('', string.strip().lower())
+
+    def _latinize(self, string):
+        '''
+        Replaces unicode characters with closest Latin equivalent. For example,
+        Alejandro González Iñárritu becomes Alejando Gonzalez Inarritu.
+        '''
+        return unidecode(string)
+
+    def _unique_preserving_order(self, seq):
+        '''
+        Returns unique tokens in a list, preserving order. Fastest version found in this
+        exercise: http://www.peterbe.com/plog/uniqifiers-benchmark
+        '''
+        seen = set()
+        seen_add = seen.add
+        return [x for x in seq if not (x in seen or seen_add(x))]
+        
+    def get_fingerprint_nonsorted(self):
+        '''
+        Gets non sorted fingerpint that remove isolated letters
+        '''
+        result = self._latinize(' '.join(
+            self._unique_preserving_order(
+                self.string.split()
+
+            )
+        ))
+
+        return re.sub(r'\b\w{1}\b', '', result)
+
+    def get_fingerprint(self):
+        '''
+        Gets conventional fingerpint.
+        '''
+        return self._latinize(' '.join(
+            self._unique_preserving_order(
+                sorted(self.string.split())
+            )
+        ))
+
+    def get_ngram_fingerprint(self, n=1):
+        '''
+        Gets ngram fingerpint based on n-length shingles of the string.
+        Default is 1.
+        '''
+        return self._latinize(''.join(
+            self._unique_preserving_order(
+                sorted([self.string[i:i + n] for i in range(len(self.string) - n + 1)])
+            )
+        ))
 
 
 def classify(text):

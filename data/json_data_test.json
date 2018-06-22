@@ -1,0 +1,159 @@
+[
+	{
+		"beeldid": "00009500",
+		"spatial": {
+			"value": [
+				"Brussel",
+				"L' église St . e. Marie"
+			],
+			"key": [
+				"LOC_PLACE",
+				"LOC_BUILDING"
+			]
+		},
+		"imageclassification": {
+			"prob4": 0.0622188,
+			"prob3": 0.156034,
+			"prob2": 0.242379,
+			"class5": "palace",
+			"prob1": 0.313512,
+			"class4": "arch",
+			"class3": "church/outdoor",
+			"class2": "synagogue/outdoor",
+			"class1": "mosque/outdoor",
+			"prob5": 0.053268
+		},
+		"temporal": null
+	},
+	{
+		"beeldid": "00009520",
+		"spatial": {
+			"value": [
+				"Bruxelles",
+				"Grand ' Place"
+			],
+			"key": [
+				"LOC_PLACE",
+				"LOC_STREET"
+			]
+		},
+		"imageclassification": {
+			"prob4": 0.0715442,
+			"prob3": 0.129882,
+			"prob2": 0.184267,
+			"class5": "palace",
+			"prob1": 0.20342,
+			"class4": "office_building",
+			"class3": "apartment_building/outdoor",
+			"class2": "hotel/outdoor",
+			"class1": "building_facade",
+			"prob5": 0.0667176
+		},
+		"temporal": null
+	},
+	{
+		"beeldid": "00009537",
+		"spatial": {
+			"value": [
+				"Bruxelles",
+				"La Château de Tervuren"
+			],
+			"key": [
+				"LOC_PLACE",
+				"LOC_BUILDING"
+			]
+		},
+		"imageclassification": {
+			"prob4": 0.050541,
+			"prob3": 0.180997,
+			"prob2": 0.233139,
+			"class5": "building_facade",
+			"prob1": 0.334647,
+			"class4": "hospital",
+			"class3": "castle",
+			"class2": "mansion",
+			"class1": "palace",
+			"prob5": 0.0442231
+		},
+		"temporal": null
+	},
+	{
+		"beeldid": "00009544",
+		"spatial": {
+			"value": [
+				"Bruxelles",
+				"Place de la Monnaie"
+			],
+			"key": [
+				"LOC_PLACE",
+				"LOC_SPACES"
+			]
+		},
+		"imageclassification": {
+			"prob4": 0.0266215,
+			"prob3": 0.0285524,
+			"prob2": 0.0918927,
+			"class5": "palace",
+			"prob1": 0.706734,
+			"class4": "courthouse",
+			"class3": "courtyard",
+			"class2": "museum/outdoor",
+			"class1": "library/outdoor",
+			"prob5": 0.0246814
+		},
+		"temporal": null
+	},
+	{
+		"beeldid": "00009549",
+		"spatial": {
+			"value": [
+				"Bruxelles",
+				"Palais de Justice",
+				"rue Royale"
+			],
+			"key": [
+				"LOC_PLACE",
+				"LOC_BUILDING",
+				"LOC_STREET"
+			]
+		},
+		"imageclassification": {
+			"prob4": 0.0452762,
+			"prob3": 0.0633451,
+			"prob2": 0.219579,
+			"class5": "palace",
+			"prob1": 0.554976,
+			"class4": "plaza",
+			"class3": "ticket_booth",
+			"class2": "promenade",
+			"class1": "street",
+			"prob5": 0.0293442
+		},
+		"temporal": null
+	},
+	{
+		"beeldid": "00009551",
+		"spatial": {
+			"value": [
+				"Bruxelles",
+				"La gare du Nord"
+			],
+			"key": [
+				"LOC_PLACE",
+				"LOC_BUILDING"
+			]
+		},
+		"imageclassification": {
+			"prob4": 0.0992114,
+			"prob3": 0.138439,
+			"prob2": 0.1469,
+			"class5": "palace",
+			"prob1": 0.184917,
+			"class4": "mosque/outdoor",
+			"class3": "hospital",
+			"class2": "embassy",
+			"class1": "plaza",
+			"prob5": 0.0941225
+		},
+		"temporal": null
+	}]

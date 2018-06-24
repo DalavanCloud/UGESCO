@@ -7,6 +7,8 @@ import requests
 
 warnings.filterwarnings("ignore", category=UserWarning, module='bs4')
 
+#fonction permettant de réduire une liste de listes
+flatten = lambda l: [item for sublist in l for item in sublist]
 
 def get_wikipedia_suggestions(value):
 
@@ -17,27 +19,27 @@ def get_wikipedia_suggestions(value):
         payload = {"format": "json",
                    "action": "opensearch",
                    "search": value,
-                   "limit": 10,
+                   "limit": 1,
                    "profile": "fuzzy",
                    "redirect": "resolve"}
         try:
             r = requests.get(url, params=payload).json()
             if len(r[3]) == 0:
                 continue
-            return r
+            return " || ".join(flatten(r[1:]))
         except Exception as e:
             print(e)
 
 
-def get_wikipedia(value):
+# def get_wikipedia(value):
     # liste = []
 
-    for e,i in enumerate(get_wikipedia_suggestions(value)):
-        print(i[1])
-        best_title = fuzz.ratio(i[1][0])
-        if fuzz.ratio(best_title, value) >= 90:
-            w = wikipedia.page(best_title)
-    return w
+    # for e,i in enumerate(get_wikipedia_suggestions(value)):
+    #     print(i)
+    #     best_title = fuzz.ratio(i[1][0])
+    #     if fuzz.ratio(best_title, value) >= 90:
+    #         w = wikipedia.page(best_title)
+    # return w
 
     # try:
     #     w = wikipedia.page(value)
@@ -62,4 +64,4 @@ def get_wikipedia(value):
     # return liste
 
 
-print(get_wikipedia("la louvièr"))
+print(get_wikipedia_suggestions("bourse belgique"))

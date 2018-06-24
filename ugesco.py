@@ -376,17 +376,17 @@ class MyEncoder(json.JSONEncoder):
             return super(MyEncoder, self).default(obj)
 
 
-def get_nested_rec(key, grp):
-    """
-    fonction destinée à transformer un csv en json
-    suivant le schéma de Samnang
-    """
-    rec = dict(PrimaryId=key[0],
-               FirstName=key[1],
-               LastName=key[2],
-               City=key[3])
+# def get_nested_rec(key, grp):
+#     """
+#     fonction destinée à transformer un csv en json
+#     suivant le schéma de Samnang
+#     """
+#     rec = dict(PrimaryId=key[0],
+#                FirstName=key[1],
+#                LastName=key[2],
+#                City=key[3])
 
-    for field in ['CarName', 'DogName']:
-        rec[field] = list(grp[field].unique())
+#     for field in ['CarName', 'DogName']:
+#         rec[field] = list(grp[field].unique())
 
-    return rec
+#     return rec

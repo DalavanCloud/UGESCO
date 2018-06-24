@@ -1,12 +1,15 @@
 # -*- coding: utf-8 -*-
 import json
+import random
 import re
-import string
 import numpy as np
 import pandas as pd
 import requests
+import requests_cache
+from time import sleep
 from bs4 import BeautifulSoup
 from unidecode import unidecode
+from dict_digger import dig #facilite l'accès aux dictionnaires
 import warnings
 warnings.filterwarnings("ignore", category=DeprecationWarning, module='bs4')
 from flatten_json import flatten
@@ -18,7 +21,8 @@ from nltk.tokenize import word_tokenize
 MODEL = r'D:\stanford-ner-2017-06-09\classifiers\eunews.fr.crf.gz'
 STANFORD_JAR = r'D:\stanford-ner-2017-06-09\stanford-ner.jar'
 
-PUNCTUATION = re.compile('[%s]' % re.escape(string.punctuation))
+PUNCTUATION = re.compile('[%s]' % re.escape(
+    '!"#$%&()*+,./:;<=>?@[\\]^_`{|}~'))
 
 
 class Fingerprinter(object):
@@ -27,12 +31,13 @@ class Fingerprinter(object):
     https://github.com/OpenRefine/OpenRefine/wiki/Clustering-In-Depth
     Requires the unidecode module: https://github.com/iki/unidecode
     '''
+
     def __init__(self, string):
         self.string = self._preprocess(string)
 
     def _preprocess(self, string):
         '''
-        Strip leading and trailing whitespace, lowercase the string, remove all punctuation,
+        Strip leading and trailing whitespace, lowercase the string, remove all punctuation except -,
         in that order.
         '''
         return PUNCTUATION.sub('', string.strip().lower())
@@ -52,7 +57,7 @@ class Fingerprinter(object):
         seen = set()
         seen_add = seen.add
         return [x for x in seq if not (x in seen or seen_add(x))]
-        
+
     def get_fingerprint_nonsorted(self):
         '''
         Gets non sorted fingerpint that remove isolated letters
@@ -83,7 +88,8 @@ class Fingerprinter(object):
         '''
         return self._latinize(''.join(
             self._unique_preserving_order(
-                sorted([self.string[i:i + n] for i in range(len(self.string) - n + 1)])
+                sorted([self.string[i:i + n]
+                        for i in range(len(self.string) - n + 1)])
             )
         ))
 

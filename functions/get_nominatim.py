@@ -6,7 +6,7 @@ from time import sleep
 requests_cache.install_cache('nominatim_cache')
 
 
-def get_nominatim(value, countrycodes=[''], limit=5, lang="fr"):
+def get_nominatim(value, countrycodes=['BE', ''], limit=5, lang="fr"):
     # doc : https://wiki.openstreetmap.org/wiki/Nominatim
     url = 'http://nominatim.openstreetmap.org/'
 
@@ -43,4 +43,4 @@ def get_nominatim(value, countrycodes=[''], limit=5, lang="fr"):
 
 if __name__ == '__main__':
 
-    print(get_nominatim("gare du nord brussels")) #pourquoi ce résultat en Italie ???
+    print(get_nominatim("hotel de ville belgium")) #pourquoi ce résultat en Italie avec ypres grand-place ???

@@ -19,7 +19,7 @@ print('difflib is ', similar(string1, string2))
 ##########################################################################
 
 data = "place gilson bruxelles belgique"
-target = ["Place Charles Gilson", "avenue Gilson"]
+target = ["Place Charles Gilson", "avenue Gilson", "Gilson"]
 
 
 import jellyfish
@@ -38,5 +38,14 @@ print(get_jw_match(data, target))
 ######################################################""
 from ngram import NGram
 
-G = NGram(target)
-print(G.find(data))
+def get_similar(data, target):
+    G = NGram(target)
+    return G.find(data)
+
+
+def get_similars(data, target, threshold):
+    G = NGram(target)
+    return G.search(data, threshold=threshold)[0][0]
+
+print(get_similar(data, target))
+print(get_similars(data, target, 0.1))

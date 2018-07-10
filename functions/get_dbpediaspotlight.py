@@ -22,16 +22,17 @@ def get_dbpediaspotlight(value, db_type):
         annotations = spotlight.annotate('http://localhost:2222/rest/annotate',
                                          value,
                                          confidence=0.2,
-                                         support=20,
+                                         support=10,
                                          filters=types_filter)
         liste = []
         for el in annotations:
-            liste.append(el['URI'] + "||" + el['types'])
+            liste.append(tuple((el['URI'],el['types'])))
+        return liste
     except spotlight.SpotlightException:
         pass
 
-    return ":::".join(liste)
+if __name__ == '__main__':
+	print(get_dbpediaspotlight(
+    "Elio Di Rupo goes to Brussels whit Charles Michel", "Place"))
 
 
-print(get_dbpediaspotlight(
-    "La famille Michel est originaire d'Hoegaarden (Flandre). Fils de Martine et de Louis Michel. Son père est ancien président du Mouvement réformateur (dont la présidence sera reprise par son fils, et deviendra député européen et ministre d'État.", "Place"))

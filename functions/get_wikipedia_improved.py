@@ -72,7 +72,7 @@ def gsrsearch(query, lang, results=10):
 
     try:
 
-        most_similar = get_similars(query, search_results, 0.15)
+        most_similar = get_similars(query, search_results, 1)
         return most_similar + " (%s)" % (url_results[search_results.index(most_similar)])
 
     except IndexError:
@@ -81,4 +81,4 @@ def gsrsearch(query, lang, results=10):
 
 
 if __name__ == '__main__':
-    print(gsrsearch("au petit sablon conservatoire bruxelles belgique   ", "fr"))
+    print(gsrsearch("namur belgique", "fr"))

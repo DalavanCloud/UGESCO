@@ -8,7 +8,7 @@ import re
 import pandas as pd
 from unidecode import unidecode
 
-geo = pd.read_table(r"data\streets_and_POI.tsv")
+geo = pd.read_table(r"C:\Users\ettor\Documents\GitHub\UGESCO\data\streets_and_POI.tsv")
 streets = set([unidecode(str(name).strip().lower().replace('-', ' ')) for name in geo.lowercase])
 
 

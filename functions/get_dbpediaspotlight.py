@@ -33,6 +33,6 @@ def get_dbpediaspotlight(value, db_type):
 
 if __name__ == '__main__':
 	print(get_dbpediaspotlight(
-    "Elio Di Rupo goes to Brussels whit Charles Michel", "Place"))
+    "St Andrew's Church est la seule église écossaise en Belgique.", "Place"))
 
 

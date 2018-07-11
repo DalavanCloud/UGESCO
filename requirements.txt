@@ -1,0 +1,25 @@
+#file created with pipreqs .
+pandas==0.22.0
+Unidecode==1.0.22
+dict_digger==0.2.1
+fuzzywuzzy==0.16.0
+geopy==1.14.0
+ngram==3.3.2
+requests==2.19.1
+wikipedia==1.4.0
+rosette_api==1.9.0
+numpy==1.14.5
+requests_cache==0.4.13
+pyspotlight==0.7.2
+nltk==3.2.5
+python_Levenshtein==0.12.0
+SPARQLWrapper==1.8.2
+beautifulsoup4==4.6.0
+flatten_json==0.1.6
+protobuf==3.6.0
+jellyfish==0.6.1
+langid==1.1.6
+polyglot==16.7.4
+pywikibot==3.0.20180603
+rosette==0.0.1
+wikidataintegrator==0.0.550

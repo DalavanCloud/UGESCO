@@ -14,7 +14,7 @@ geo = pd.read_csv(
 lieux_be = set([str(name).strip().lower() for name in geo.alternate_name])
 
 
-def get_munipalities(value, lieux):
+def get_municipalities(value, lieux):
     liste = []
     CHARS = "abcdefghijklmnopqrstuvwxyzéëèàäâçüûùABCDEFGHIJKLMNOPQRSTUVWXYZ- "
     valeurs = "".join(unidecode(c.lower().replace("-", " "))
@@ -56,4 +56,4 @@ def get_munipalities(value, lieux):
 
 text = "Maisons atteintes par les obus des forts (Dolhain et rue du Palais-Verviers) en mai 1940 -- -- [Photo Ciné A. Ruwet]"
 
-print(get_munipalities(text, lieux_be))
+print(get_municipalities(text, lieux_be))

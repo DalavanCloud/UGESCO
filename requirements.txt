@@ -1,4 +1,4 @@
-#file created with pipreqs .
+#file created with pipreqs https://github.com/bndr/pipreqs
 pandas==0.22.0
 Unidecode==1.0.22
 dict_digger==0.2.1

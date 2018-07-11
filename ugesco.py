@@ -9,7 +9,7 @@ import requests_cache
 from time import sleep
 from bs4 import BeautifulSoup
 from unidecode import unidecode
-from dict_digger import dig #facilite l'accès aux dictionnaires
+from dict_digger import dig  # facilite l'accès aux dictionnaires
 import warnings
 warnings.filterwarnings("ignore", category=DeprecationWarning, module='bs4')
 from flatten_json import flatten
@@ -23,62 +23,62 @@ requests_cache.install_cache('wikidata_cache')
 
 
 def get_wikidata(value, type_id, prop_id='', prop_value='', lang="fr"):
-  """ Use the Antonin's API to return the best match on Wikidata based on the type and a property.
-  The result is a tuple (main_type, match, name, qid, score)
-  Example : get_wikidata('Binche', 'Q618123', 'P17', 'Q31')
-  Result : ('municipality of Belgium', False, 'Binche', 'Q95121', 100.0)
-  """
-  base_url = "https://tools.wmflabs.org/openrefine-wikidata/%s/api" % (lang)
+    """ Use the Antonin's API to return the best match on Wikidata based on the type and a property.
+    The result is a tuple (main_type, match, name, qid, score)
+    Example : get_wikidata('Binche', 'Q618123', 'P17', 'Q31')
+    Result : ('municipality of Belgium', False, 'Binche', 'Q95121', 100.0)
+    """
+    base_url = "https://tools.wmflabs.org/openrefine-wikidata/%s/api" % (lang)
 
-  query = {"query": """{"query":"%s",
+    query = {"query": """{"query":"%s",
                       "limit":0,
                       "type" : "%s"}""" % (value, type_id)}
 
-  if prop_id or prop_value:
-    query = {"query": """{"query":"%s",
+    if prop_id or prop_value:
+        query = {"query": """{"query":"%s",
                       "limit":0,
                       "type" : "%s",
                       "properties":[{"pid":"%s",
                       "v":{"id":"%s"}}]}""" % (value, type_id, prop_id, prop_value)}
 
-  r = requests.get(base_url, params=query)
+    r = requests.get(base_url, params=query)
 
-  # print(r.url)
+    # print(r.url)
 
-  json_result = r.json()
+    json_result = r.json()
 
-  # print(json_result)
+    # print(json_result)
 
-  try:
-    qid = [d['id'] for d in json_result['result']]
-    name = [d['name'] for d in json_result['result']]
-    score = [d['score'] for d in json_result['result']]
-    match = [d['match'] for d in json_result['result']]
-    main_type = [d['type'][0]['name'] for d in json_result['result']]
+    try:
+        qid = [d['id'] for d in json_result['result']]
+        name = [d['name'] for d in json_result['result']]
+        score = [d['score'] for d in json_result['result']]
+        match = [d['match'] for d in json_result['result']]
+        main_type = [d['type'][0]['name'] for d in json_result['result']]
 
-    df = pd.DataFrame({'qid': qid,
-                       'name': name,
-                       'score': score,
-                       'match': match,
-                       'main_type': main_type
-                       })
+        df = pd.DataFrame({'qid': qid,
+                           'name': name,
+                           'score': score,
+                           'match': match,
+                           'main_type': main_type
+                           })
 
-    # order by score
-    df.sort_values(['score'], ascending=[
-                   False], inplace=True)
+        # order by score
+        df.sort_values(['score'], ascending=[
+                       False], inplace=True)
 
-    # select the best match
-    match = df[df['match'] == True].values
+        # select the best match
+        match = df[df['match'] == True].values
 
-    if match.size > 0:
-      best_match = tuple(map(tuple, match))[0]
-    else:
-      best_match = tuple(map(tuple, df.iloc[[0]].values))[0]
+        if match.size > 0:
+            best_match = tuple(map(tuple, match))[0]
+        else:
+            best_match = tuple(map(tuple, df.iloc[[0]].values))[0]
 
-    return best_match
+        return best_match
 
-  except IndexError:
-    return "No match"
+    except IndexError:
+        return "No match"
 
 
 def get_similar(data, target):
@@ -164,10 +164,10 @@ requests_cache.install_cache('nominatim_cache')
 
 s = requests.Session()
 
-def get_nominatim(value, countrycodes=['BE',''], limit=5, lang="fr"):
+
+def get_nominatim(value, countrycodes=['BE', ''], limit=5, lang="fr"):
     # doc : https://wiki.openstreetmap.org/wiki/Nominatim
     url = 'http://nominatim.openstreetmap.org/'
-
 
     params = {'q': value,
               'format': 'jsonv2',
@@ -177,7 +177,7 @@ def get_nominatim(value, countrycodes=['BE',''], limit=5, lang="fr"):
               'polygon_kml': 0,
               'extratags': 1,
               'namedetails': 0,
-              # ajouter un country_code vide simule 
+              # ajouter un country_code vide simule
               # la péréférence pour un pays de geopy
               # sans se limiter à celui-ci
               'countrycodes': countrycodes,
@@ -195,6 +195,7 @@ def get_nominatim(value, countrycodes=['BE',''], limit=5, lang="fr"):
     sleep(1)
 
     return result
+
 
 # chemins vers l'appli Stanford NER et le modèle CRF Europeana
 MODEL = r'D:\stanford-ner-2017-06-09\classifiers\eunews.fr.crf.gz'
@@ -426,7 +427,6 @@ def json_to_df(file):
     df = pd.DataFrame([flatten(line) for line in json_file])
 
     return df
-
 
 
 def getClass(item):

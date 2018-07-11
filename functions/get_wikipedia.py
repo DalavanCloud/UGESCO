@@ -64,4 +64,4 @@ def get_wikipedia_suggestions(value):
     # return liste
 
 
-print(get_wikipedia_suggestions("bourse belgique"))
+print(get_wikipedia_suggestions("place rogier belgique"))

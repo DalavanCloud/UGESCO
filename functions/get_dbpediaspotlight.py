@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun Jan  7 20:26:17 2018
 
 @author: ettor
 """
@@ -11,7 +10,7 @@ import spotlight
 def get_dbpediaspotlight(value, db_type):
     """use pyspotlight to annotate text. To use it, First lauch
     java -jar dbpedia-spotlight-0.7.1.jar fr  http://localhost:2222/rest
-    in the folder D:\dbpdia_spotlight
+    in the folder D:\\dbpdia_spotlight
     """
     types_filter = {
         'policy': "whitelist",

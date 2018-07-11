@@ -30,4 +30,4 @@ def geocode(value, country, one=False):
 
 if __name__ == '__main__':
 
-    print(geocode("Boulevard Anspacht Bruxelles Galeries Anspach Brussels", ""))
+    print(geocode("Boulevard Anspacht Bruxelles", ""))

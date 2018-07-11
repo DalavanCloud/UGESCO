@@ -21,6 +21,5 @@ maison = wn.synset('house.n.07')
 
 print(dog.path_similarity(carnivore))
 print(dog.path_similarity(cat))
-print(dog.path_similarity(salope))
 print(dog.path_similarity(vache))
 print(dog.path_similarity(maison))

@@ -1,13 +1,13 @@
 import requests
 import functools
-from ngram import NGram
+from ngram import NGram #https://pythonhosted.org/ngram/ngram.html
 
 
 def get_similar(data, target):
     G = NGram(target)
     return G.find(data)
 
-
+#A améliorer pour que le match soit l'élément qui partage le plus long ngramm
 def get_similars(data, target, threshold):
     G = NGram(target)
     return G.search(data, threshold=threshold)[0][0]
@@ -72,7 +72,7 @@ def gsrsearch(query, lang, results=10):
 
     try:
 
-        most_similar = get_similars(query, search_results, 1)
+        most_similar = get_similars(query, search_results, 0.1)
         return most_similar + " (%s)" % (url_results[search_results.index(most_similar)])
 
     except IndexError:
@@ -81,4 +81,4 @@ def gsrsearch(query, lang, results=10):
 
 
 if __name__ == '__main__':
-    print(gsrsearch("namur belgique", "fr"))
+    print(gsrsearch("John William Chanteur franco-ivoirien.", "fr"))

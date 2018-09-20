@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db71ba6f-fd3b-42b8-b7ea-d10126f9d039" name="Default" comment="premier commit">
-      <change beforePath="$PROJECT_DIR$/functions/get_nominatim.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/get_nominatim.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/get_wikipedia.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/get_wikipedia.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/get_wikipedia_improved.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/get_wikipedia_improved.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,23 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="belgicapress.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/belgicapress.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1207">
-              <caret line="82" column="11" selection-start-line="82" selection-start-column="11" selection-end-line="82" selection-end-column="11" />
-              <folding>
-                <element signature="e#92#122#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="get_wikidata.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/functions/get_wikidata.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+            <state relative-caret-position="187">
+              <caret line="72" selection-start-line="72" selection-end-line="72" />
               <folding>
                 <element signature="e#85#104#0" expanded="true" />
               </folding>
@@ -163,22 +153,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="UGESCO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UGESCO" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UGESCO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UGESCO" type="462c0819:PsiDirectoryNode" />
-              <item name="functions" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -195,6 +169,22 @@
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="UGESCO" type="cbb8eebc:String" user="UGESCO" />
               <item name="functions" type="cbb8eebc:String" user="functions" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="UGESCO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UGESCO" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UGESCO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UGESCO" type="462c0819:PsiDirectoryNode" />
+              <item name="functions" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -385,12 +375,11 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19060403" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1903503" />
       <window_info anchor="bottom" id="TODO" order="9" weight="0.32909605" />
-      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.5021482" side_tool="true" weight="0.32842582" />
-      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.50363517" side_tool="true" visible="true" weight="0.32768363" />
       <window_info anchor="bottom" id="Version Control" order="1" weight="0.32909605" />
-      <window_info anchor="bottom" id="Python Console" order="2" sideWeight="0.49785176" visible="true" weight="0.32768363" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="2" sideWeight="0.49636483" visible="true" weight="0.32768363" />
       <window_info anchor="right" id="Run" order="3" sideWeight="0.49561402" weight="0.41073826" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24973147" />
       <window_info anchor="bottom" id="Terminal" order="3" weight="0.32930845" />
@@ -406,6 +395,7 @@
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="5" />
       <window_info anchor="right" id="Coverage" order="4" sideWeight="0.50438595" side_tool="true" weight="0.3984375" />
     </layout>
   </component>
@@ -633,8 +623,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/functions/get_wikidata.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+        <state relative-caret-position="187">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
           <folding>
             <element signature="e#85#104#0" expanded="true" />
           </folding>

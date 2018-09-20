@@ -81,4 +81,4 @@ def gsrsearch(query, lang, results=10):
 
 
 if __name__ == '__main__':
-    print(gsrsearch("John William Chanteur franco-ivoirien.", "fr"))
+    print(gsrsearch("hamme escaut", "fr"))
